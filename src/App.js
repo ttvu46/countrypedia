@@ -1,3 +1,13 @@
-import React from 'react';
+import React from "react";
+import Map from "./countryMap";
+import NavBar from "./NavBar";
 
-export default App();
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <Map />
+    </div>
+  );
+}
+export default App;
