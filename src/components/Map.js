@@ -6,6 +6,7 @@ const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
 function Map({ setTooltipContent }) {
+  let countryName = "";
   return (
     <div>
       <ComposableMap
