@@ -1,5 +1,6 @@
-import React, { memo } from "react";
+import React, { useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import Overlay from "react-bootstrap/Overlay";
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
@@ -8,7 +9,6 @@ function Map({ setTooltipContent }) {
   return (
     <div>
       <ComposableMap
-        data-tip=""
         style={{
           backgroundColor: "#1b1717",
         }}
@@ -19,9 +19,6 @@ function Map({ setTooltipContent }) {
               <Geography
                 onMouseOver={() => {
                   setTooltipContent(geo.properties.NAME);
-                }}
-                onMouseLeave={() => {
-                  setTooltipContent("");
                 }}
                 style={{
                   default: {
@@ -51,4 +48,4 @@ function Map({ setTooltipContent }) {
   );
 }
 
-export default memo(Map);
+export default Map;
