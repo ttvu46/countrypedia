@@ -11,6 +11,7 @@ function App() {
   const [content, setContent] = useState("");
   const [open, setOpen] = useState(false);
   const [clickedInfo, setClickedInfo] = useState("");
+  const [countryCode, setCountryCode] = useState("");
   return (
     <div>
       <Tabs
@@ -24,11 +25,13 @@ function App() {
             open={open}
             setOpen={setOpen}
             clickedInfo={clickedInfo}
+            countryCode={countryCode}
           />
           <Map
             setTooltipContent={setContent}
             setOpen={setOpen}
             setClickedInfo={setClickedInfo}
+            setCountryCode={setCountryCode}
           />
           <ReactTooltip>{content}</ReactTooltip>
         </Tab>
