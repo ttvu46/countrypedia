@@ -7,5 +7,11 @@ function flagIcon() {
     ".png 2x, https://flagcdn.com/168x126/" +
     code +
     ".png 3x";
-  return {};
+  return {
+
+
+  };
 }
+
+const flagIcon = <img src={srcLink} srcset={srcSetLink} width="56" height="42"></img>; \
+
