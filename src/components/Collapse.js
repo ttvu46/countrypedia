@@ -1,6 +1,5 @@
 import React from "react";
 import "./collapse.css";
-import FlagIcon from "./FlagIcon.js";
 
 function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
   let style = "sidebar";
@@ -13,6 +12,15 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
     ".png 2x, https://flagcdn.com/168x126/" +
     code +
     ".png 3x";
+
+  // fetch("http://www.geognos.com/api/en/countries/service_name/counry_code_or_ip.ouput_format  ")
+  //   .then((response) => response.json())
+  //   .then((resData) => {
+  //     console.log(resData);
+  //     //do your logic here
+  //     //let person = resData.results
+  //     this.setState({ person: resData.results }); //this is an asynchronous function
+  //   });
   return (
     <div className={style}>
       <a

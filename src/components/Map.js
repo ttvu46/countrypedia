@@ -6,12 +6,48 @@ const geoUrl =
 
 function Map({
   setTooltipContent,
+  open,
   setOpen,
+  clickedInfo,
   setClickedInfo,
   setContentCode,
   setCountryCode,
   setHover,
 }) {
+  const clickedStyle = {
+    default: {
+      fill: "#96bb7c",
+      outline: "none",
+      stroke: "#FFFFFF",
+      strokeWidth: "0.9",
+    },
+    hover: {
+      fill: "grey",
+      stroke: "black",
+      outline: "#184d47",
+    },
+    pressed: {
+      fill: "#96bb7c",
+      outline: "none",
+    },
+  };
+  const countryStyle = {
+    default: {
+      fill: "#f0c929",
+      outline: "none",
+      stroke: "#FFFFFF",
+      strokeWidth: "0.9",
+    },
+    hover: {
+      fill: "grey",
+      stroke: "black",
+      outline: "#184d47",
+    },
+    pressed: {
+      fill: "#96bb7c",
+      outline: "none",
+    },
+  };
   return (
     <ComposableMap
       style={{
@@ -39,23 +75,11 @@ function Map({
                 setClickedInfo(geo.properties.NAME);
                 setCountryCode(geo.properties.ISO_A2);
               }}
-              style={{
-                default: {
-                  fill: "#f0c929",
-                  outline: "none",
-                  stroke: "#FFFFFF",
-                  strokeWidth: "0.9",
-                },
-                hover: {
-                  fill: "grey",
-                  stroke: "black",
-                  outline: "#184d47",
-                },
-                pressed: {
-                  fill: "#96bb7c",
-                  outline: "none",
-                },
-              }}
+              style={
+                open && geo.properties.NAME === clickedInfo
+                  ? clickedStyle
+                  : countryStyle
+              }
               key={geo.rsmKey}
               geography={geo}
             />

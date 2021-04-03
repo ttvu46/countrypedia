@@ -32,7 +32,9 @@ function App() {
           />
           <Map
             setTooltipContent={setContent}
+            open={open}
             setOpen={setOpen}
+            clickedInfo={clickedInfo}
             setClickedInfo={setClickedInfo}
             setCountryCode={setCountryCode}
             setContentCode={setContentCode}
