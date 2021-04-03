@@ -4,7 +4,14 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-function Map({ setTooltipContent, setOpen, setClickedInfo, setCountryCode }) {
+function Map({
+  setTooltipContent,
+  setOpen,
+  setClickedInfo,
+  setContentCode,
+  setCountryCode,
+  setHover,
+}) {
   return (
     <ComposableMap
       style={{
@@ -19,9 +26,13 @@ function Map({ setTooltipContent, setOpen, setClickedInfo, setCountryCode }) {
             <Geography
               onMouseOver={() => {
                 setTooltipContent(geo.properties.NAME);
+                setContentCode(geo.properties.ISO_A2);
+                setHover(true);
               }}
               onMouseLeave={() => {
                 setTooltipContent("");
+                setContentCode("");
+                setHover(false);
               }}
               onClick={() => {
                 setOpen(true);

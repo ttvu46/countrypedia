@@ -1,5 +1,6 @@
 import React from "react";
 import "./collapse.css";
+import FlagIcon from "./FlagIcon.js";
 
 function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
   let style = "sidebar";

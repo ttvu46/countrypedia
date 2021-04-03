@@ -6,11 +6,14 @@ import ReactTooltip from "react-tooltip";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import "./App.css";
+import FlagIcon from "./FlagIcon";
 
 function App() {
   const [content, setContent] = useState("");
   const [open, setOpen] = useState(false);
+  const [hover, setHover] = useState(false);
   const [clickedInfo, setClickedInfo] = useState("");
+  const [contentCode, setContentCode] = useState("");
   const [countryCode, setCountryCode] = useState("");
   return (
     <div>
@@ -32,8 +35,14 @@ function App() {
             setOpen={setOpen}
             setClickedInfo={setClickedInfo}
             setCountryCode={setCountryCode}
+            setContentCode={setContentCode}
+            setHover={setHover}
           />
-          <ReactTooltip>{content}</ReactTooltip>
+          {hover && (
+            <ReactTooltip>
+              {content}: <FlagIcon countryCode={contentCode} />
+            </ReactTooltip>
+          )}
         </Tab>
         <Tab eventKey="profile" title="Profile"></Tab>
         <Tab eventKey="Headquarter" title="Headquarter"></Tab>
