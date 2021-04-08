@@ -15,6 +15,7 @@ function App() {
   const [clickedInfo, setClickedInfo] = useState("");
   const [contentCode, setContentCode] = useState("");
   const [countryCode, setCountryCode] = useState("");
+  const [countryData, setCountryData] = useState("");
   return (
     <div>
       <Tabs
@@ -29,6 +30,7 @@ function App() {
             setOpen={setOpen}
             clickedInfo={clickedInfo}
             countryCode={countryCode}
+            countryData={countryData}
           />
           <Map
             setTooltipContent={setContent}

@@ -1,7 +1,10 @@
 import React from "react";
 import "./collapse.css";
+import Table from "react-bootstrap/Table";
+import dataJSON from "./../data/country.json";
 
 function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
+  console.log(dataJSON);
   let style = "sidebar";
   style += open ? " open" : " close";
   let code = countryCode.toLowerCase();
@@ -13,14 +16,16 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
     code +
     ".png 3x";
 
-  // fetch("http://www.geognos.com/api/en/countries/service_name/counry_code_or_ip.ouput_format  ")
+  // let capital;
+  // fetch("http://country.io/capital.json")
   //   .then((response) => response.json())
   //   .then((resData) => {
   //     console.log(resData);
-  //     //do your logic here
-  //     //let person = resData.results
-  //     this.setState({ person: resData.results }); //this is an asynchronous function
+  //   })
+  //   .catch(function (err) {
+  //     console.log(err);
   //   });
+
   return (
     <div className={style}>
       <a
@@ -35,6 +40,19 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
 
       <h1>{clickedInfo}</h1>
       <img src={srcLink} srcset={srcSetLink} width="56" height="42"></img>
+
+      <Table striped borderless hover variant="dark">
+        <tbody>
+          <tr>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+        </tbody>
+      </Table>
     </div>
   );
 }
