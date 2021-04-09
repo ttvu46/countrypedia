@@ -113,7 +113,17 @@
   },
   "HN": "Tegucigalpa",
   "HM": "",
-  "VE": "Caracas",
+  "VE": {
+    "Independent": "Yes",
+    "OfficialName": "Bolivarian Republic of Venezuela",
+    "Capital": "Caracas",
+    "Continent": "South America",
+    "Population2019": 32219521,
+    "Area": "916 445",
+    "GDP2018": "N/A",
+    "Currency": "Venezuelan bolívar soberano (Bs.S., VES)",
+    "CallingCode": "+58"
+  },
   "PR": {
     "Independent": "No",
     "OfficialName": "Commonwealth of Puerto Rico",
@@ -152,7 +162,17 @@
   "PM": "Saint-Pierre",
   "ZM": "Lusaka",
   "EH": "El-Aaiun",
-  "EE": "Tallinn",
+  "EE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Estonia",
+    "Capital": "Tallinn",
+    "Continent": "Europe",
+    "Population2019": 1328360,
+    "Area": "45 227",
+    "GDP2018": "23 266",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+372"
+  },
   "EG": "Cairo",
   "ZA": "Pretoria",
   "EC": "Quito",
@@ -169,9 +189,29 @@
     "CallingCode": "+84"
   },
   "SB": "Honiara",
-  "ET": "Addis Ababa",
+  "ET": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Democratic Republic of Ethiopia",
+    "Capital": "Addis Ababa",
+    "Continent": "Africa",
+    "Population2019": 98665000,
+    "Area": "1 104 300",
+    "GDP2018": "772",
+    "Currency": "Ethiopian birr (Br, ETB)",
+    "CallingCode": "+251"
+  },
   "SO": "Mogadishu",
-  "ZW": "Harare",
+  "ZW": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Zimbabwe",
+    "Capital": "Harare",
+    "Continent": "Africa",
+    "Population2019": 15159624,
+    "Area": "390 757",
+    "GDP2018": "2 147",
+    "Currency": "United States dollar ($, USD)",
+    "CallingCode": "+263"
+  },
   "SA": "Riyadh",
   "ES": {
     "Independent": "Yes",
@@ -195,7 +235,17 @@
   "MM": "Nay Pyi Taw",
   "ML": "Bamako",
   "MO": "Macao",
-  "MN": "Ulan Bator",
+  "MN": {
+    "Independent": "Yes",
+    "OfficialName": "Mongolia",
+    "Capital": "Ulan Bator",
+    "Continent": "Asia",
+    "Population2019": 3304526,
+    "Area": "1 564 110",
+    "GDP2018": "4 122",
+    "Currency": "Mongolian tögrög (₮, MNT)",
+    "CallingCode": "+976"
+  },
   "MH": "Majuro",
   "MK": "Skopje",
   "MU": "Port Louis",
@@ -209,7 +259,17 @@
   "IM": "Douglas, Isle of Man",
   "UG": "Kampala",
   "TZ": "Dodoma",
-  "MY": "Kuala Lumpur",
+  "MY": {
+    "Independent": "Yes",
+    "OfficialName": "Malaysia",
+    "Capital": "Kuala Lumpur",
+    "Continent": "Asia",
+    "Population2019": 32700760,
+    "Area": "330 803",
+    "GDP2018": "11 373",
+    "Currency": "Malaysian ringgit (RM, MYR)",
+    "CallingCode": "+60"
+  },
   "MX": "Mexico City",
   "IL": "Jerusalem",
   "FR": {
@@ -226,11 +286,31 @@
   "IO": "Diego Garcia",
   "SH": "Jamestown",
   "FI": "Helsinki",
-  "FJ": "Suva",
+  "FJ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Fiji",
+    "Capital": "Suva",
+    "Continent": "Oceania",
+    "Population2019": 884887,
+    "Area": "18 272",
+    "GDP2018": "6 267",
+    "Currency": "Fijian dollar ($, FJD)",
+    "CallingCode": "+679"
+  },
   "FK": "Stanley",
   "FM": "Palikir",
   "FO": "Torshavn",
-  "NI": "Managua",
+  "NI": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Nicaragua",
+    "Capital": "Managua",
+    "Continent": "North America",
+    "Population2019": 6460411,
+    "Area": "130 373",
+    "GDP2018": "2 029",
+    "Currency": "Nicaraguan córdoba (C$, NIO)",
+    "CallingCode": "+505"
+  },
   "NL": "Amsterdam",
   "NO": {
     "Independent": "Yes",
@@ -246,7 +326,17 @@
   "NA": "Windhoek",
   "VU": "Port Vila",
   "NC": "Noumea",
-  "NE": "Niamey",
+  "NE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Niger",
+    "Capital": "Niamey",
+    "Continent": "Africa",
+    "Population2019": 22314743,
+    "Area": "1 267 000",
+    "GDP2018": "414",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+227"
+  },
   "NF": "Kingston",
   "NG": "Abuja",
   "NZ": "Wellington",
@@ -284,7 +374,17 @@
   "CV": "Praia",
   "CU": "Havana",
   "SZ": "Mbabane",
-  "SY": "Damascus",
+  "SY": {
+    "Independent": "Yes",
+    "OfficialName": "Syrian Arab Republic",
+    "Capital": "Damascus",
+    "Continent": "Asia",
+    "Population2019": 17070135,
+    "Area": "185 180",
+    "GDP2018": "2 033",
+    "Currency": "Syrian pound (£, SYP)",
+    "CallingCode": "+963"
+  },
   "SX": "Philipsburg",
   "KG": "Bishkek",
   "KE": "Nairobi",
@@ -316,7 +416,17 @@
   "SC": "Victoria",
   "KZ": "Astana",
   "KY": "George Town",
-  "SG": "Singapur",
+  "SG": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Singapore",
+    "Capital": "Singapore",
+    "Continent": "Asia",
+    "Population2019": 5703600,
+    "Area": "716",
+    "GDP2018": "64 582",
+    "Currency": "Singapore dollar ($, SGD)",
+    "CallingCode": "+65"
+  },
   "SE": {
     "Independent": "Yes",
     "OfficialName": "Kingdom of Sweden",
@@ -447,6 +557,16 @@
     "Currency": "Ukrainian hryvnia (₴, UAH)",
     "CallingCode": "+380"
   },
-  "QA": "Doha",
+  "QA": {
+    "Independent": "Yes",
+    "OfficialName": "State of Qatar",
+    "Capital": "Doha",
+    "Continent": "Asia",
+    "Population2019": 2747282,
+    "Area": "11 586",
+    "GDP2018": "68 794",
+    "Currency": "Qatari riyal (ر.ق, QAR)",
+    "CallingCode": "+380"
+  },
   "MZ": "Maputo"
 }
