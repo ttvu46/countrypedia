@@ -231,7 +231,17 @@
   "MF": "Marigot",
   "MA": "Rabat",
   "MC": "Monaco",
-  "UZ": "Tashkent",
+  "UZ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Uzbekistan",
+    "Capital": "Tashkent",
+    "Continent": "Asia",
+    "Population2019": 34034952,
+    "Area": "447 400",
+    "GDP2018": "1 532",
+    "Currency": "Uzbekistani soʻm (so'm, UZS)",
+    "CallingCode": "+998"
+  },
   "MM": "Nay Pyi Taw",
   "ML": "Bamako",
   "MO": "Macao",
@@ -324,7 +334,17 @@
     "CallingCode": "+47"
   },
   "NA": "Windhoek",
-  "VU": "Port Vila",
+  "VU": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Vanuatu",
+    "Capital": "Port Vila",
+    "Continent": "Oceania",
+    "Population2019": 304500,
+    "Area": "12 189",
+    "GDP2018": "3 124",
+    "Currency": "Vanuatu vatu (Vt, VUV)",
+    "CallingCode": "+678"
+  },
   "NC": "Noumea",
   "NE": {
     "Independent": "Yes",
@@ -439,14 +459,7 @@
     "CallingCode": "+46"
   },
   "SD": "Khartoum",
-  "DO": "Santo Domingo",
-  "DM": "Roseau",
-  "DJ": "Djibouti",
-  "DK": "Copenhagen",
-  "VG": "Road Town",
-  "DE": "Berlin",
-  "YE": "Sanaa",
-  "DZ": {
+  "DO": {
     "Independent": "Yes",
     "OfficialName": "People's Democratic Republic of Algeria",
     "Capital": "Algiers",
@@ -457,8 +470,45 @@
     "Currency": "Algerian dinar (دج, DZD)",
     "CallingCode": "+213"
   },
+  "DM": "Roseau",
+  "DJ": "Djibouti",
+  "DK": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Denmark",
+    "Capital": "Copenhagen",
+    "Continent": "Europe",
+    "Population2019": 5822763,
+    "Area": "43 094",
+    "GDP2018": "61 350",
+    "Currency": "Danish krone (kr., DKK)",
+    "CallingCode": "+45"
+  },
+  "VG": "Road Town",
+  "DE": "Berlin",
+  "YE": "Sanaa",
+  "DZ": {
+    "Independent": "Yes",
+    "OfficialName": "People's Democratic Republic of Algeria",
+    "Capital": "Algiers",
+    "Continent": "Africa",
+    "Population2019": 43000000,
+    "Area": "2 381 740",
+    "GDP2018": "4 115",
+    "Currency": "Algerian dinar (دج, DZD)",
+    "CallingCode": "+213"
+  },
   "US": "Washington",
-  "UY": "Montevideo",
+  "UY": {
+    "Independent": "Yes",
+    "OfficialName": "Oriental Republic of Uruguay",
+    "Capital": "Montevideo",
+    "Continent": "South America",
+    "Population2019": 3518552,
+    "Area": "176 215",
+    "GDP2018": "17 278",
+    "Currency": "Uruguayan peso ($, UYU)",
+    "CallingCode": "598"
+  },
   "YT": "Mamoudzou",
   "UM": "",
   "LB": "Beirut",
