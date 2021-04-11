@@ -4,7 +4,7 @@ import Table from "react-bootstrap/Table";
 import dataJSON from "./../data/country.json";
 
 function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
-  console.log(dataJSON.AF.Area);
+  console.log(dataJSON["VN"]["Independent"]);
   let style = "sidebar";
   style += open ? " open" : " close";
   let code = countryCode.toLowerCase();
@@ -42,19 +42,69 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
       <img src={srcLink} srcset={srcSetLink} width="56" height="42"></img>
 
       <Table striped borderless hover variant="dark">
-        <tbody>
-          <tr>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-        </tbody>
+        {open && (
+          <tbody>
+            <tr>
+              <td>Independent</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+            </tr>
+            <tr>
+              <td>Official Name</td>
+              <td>{dataJSON[countryCode]["OfficialName"]}</td>
+            </tr>
+            <tr>
+              <td>Capital city</td>
+              <td>{dataJSON[countryCode]["Capital"]}</td>
+            </tr>
+            <tr>
+              <td>Continent</td>
+              <td>{dataJSON[countryCode]["Continent"]}</td>
+            </tr>
+            <tr>
+              <td>Population(2019)</td>
+              <td>{dataJSON[countryCode]["Population2019"]}</td>
+            </tr>
+            <tr>
+              <td>GDP(2018)</td>
+              <td>{"$" + dataJSON[countryCode]["GDP2018"]}</td>
+            </tr>
+
+            {/* <td>Capical city</td>
+          <td>Continent</td>
+          <td>Population(2019)</td>
+          <td>Area</td>
+          <td>GDP(2018)</td>
+          <td>Currency</td>
+          <td>Calling code</td> */}
+
+            {/* {open && (
+            <tr>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["OfficialName"]}</td>
+              <td>{dataJSON[countryCode]["Capital"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+              <td>{dataJSON[countryCode]["Independent"]}</td>
+            </tr> */}
+          </tbody>
+        )}
       </Table>
     </div>
   );
 }
 
 export default CollapseCon;
+{
+  /* "Independent": "Yes",
+    "OfficialName": "Islamic Republic of Afghanistan",
+    "Capital": "Kabul",
+    "Continent": "Asia",
+    "Population2019": "32 225 560",
+    "Area": "652 230",
+    "GDP2018": "$521",
+    "Currency": "Afghan afghani (؋, AFN)",
+    "CallingCode": "+93" */
+}

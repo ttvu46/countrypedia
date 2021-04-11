@@ -160,7 +160,17 @@
   "PN": "Adamstown",
   "PL": "Warsaw",
   "PM": "Saint-Pierre",
-  "ZM": "Lusaka",
+  "ZM": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Zambia",
+    "Capital": "Lusaka",
+    "Continent": "Africa",
+    "Population2019": 17381168,
+    "Area": "752 612",
+    "GDP2018": "1540",
+    "Currency": "Zambian kwacha (ZK, ZMW)",
+    "CallingCode": "+260"
+  },
   "EH": "El-Aaiun",
   "EE": {
     "Independent": "Yes",
@@ -485,7 +495,17 @@
   },
   "VG": "Road Town",
   "DE": "Berlin",
-  "YE": "Sanaa",
+  "YE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Yemen",
+    "Capital": "Sanaa",
+    "Continent": "Asia",
+    "Population2019": 29161922,
+    "Area": "527 968",
+    "GDP2018": "944",
+    "Currency": "Yemeni rial (﷼, YER)",
+    "CallingCode": "+967"
+  },
   "DZ": {
     "Independent": "Yes",
     "OfficialName": "People's Democratic Republic of Algeria",
