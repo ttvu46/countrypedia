@@ -48,7 +48,7 @@ function App() {
             </ReactTooltip>
           )}
         </Tab>
-        <Tab eventKey="profile" title="Profile"></Tab>
+        <Tab eventKey="pro" title="Population denstity"></Tab>
         <Tab eventKey="Headquarter" title="Headquarter"></Tab>
         <Tab eventKey="contact" title="Contact" disabled></Tab>
       </Tabs>
