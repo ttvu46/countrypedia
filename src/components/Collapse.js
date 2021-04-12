@@ -68,6 +68,14 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
               <td>GDP(2018)</td>
               <td>{"$" + dataJSON[countryCode]["GDP2018"]}</td>
             </tr>
+            <tr>
+              <td>Currency</td>
+              <td>{dataJSON[countryCode]["Currency"]}</td>
+            </tr>
+            <tr>
+              <td>Calling code</td>
+              <td>{dataJSON[countryCode]["CallingCode"]}</td>
+            </tr>
 
             {/* <td>Capical city</td>
           <td>Continent</td>
@@ -97,14 +105,3 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
 }
 
 export default CollapseCon;
-{
-  /* "Independent": "Yes",
-    "OfficialName": "Islamic Republic of Afghanistan",
-    "Capital": "Kabul",
-    "Continent": "Asia",
-    "Population2019": "32 225 560",
-    "Area": "652 230",
-    "GDP2018": "$521",
-    "Currency": "Afghan afghani (؋, AFN)",
-    "CallingCode": "+93" */
-}
