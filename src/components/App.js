@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Map from "./Map";
 import CollapseCon from "./Collapse";
 import ReactTooltip from "react-tooltip";
+import MapDensity from "./MapDensity";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import "./App.css";
@@ -48,7 +49,9 @@ function App() {
             </ReactTooltip>
           )}
         </Tab>
-        <Tab eventKey="pro" title="Population denstity"></Tab>
+        <Tab eventKey="pro" title="Population denstity">
+          <MapDensity />
+        </Tab>
         <Tab eventKey="Headquarter" title="Headquarter"></Tab>
         <Tab eventKey="contact" title="Contact" disabled></Tab>
       </Tabs>
