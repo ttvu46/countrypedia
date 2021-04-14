@@ -29,7 +29,17 @@
   "BW": "Gaborone",
   "WS": "Apia",
   "BQ": "",
-  "BR": "Brasilia",
+  "BR": {
+    "Independent": "Yes",
+    "OfficialName": "Federative Republic of Brazil",
+    "Capital": "Brasília",
+    "Continent": "South America",
+    "Population2019": 211173432,
+    "Area": "8 515 770",
+    "GDP2018": "8 921",
+    "Currency": "Brazilian real (R$, BRL)",
+    "CallingCode": "+55"
+  },
   "BS": "Nassau",
   "JE": "Saint Helier",
   "BY": "Minsk",
@@ -47,7 +57,17 @@
   "GU": "Hagatna",
   "GT": "Guatemala City",
   "GS": "Grytviken",
-  "GR": "Athens",
+  "GR": {
+    "Independent": "Yes",
+    "OfficialName": "Hellenic Republic",
+    "Capital": "Athens",
+    "Continent": "Europe",
+    "Population2019": 10724599,
+    "Area": "131 957",
+    "GDP2018": "20 324",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+30"
+  },
   "GQ": "Malabo",
   "GP": "Basse-Terre",
   "JP": {
@@ -57,7 +77,7 @@
     "Continent": "Asia",
     "Population2019": 126010000,
     "Area": "377 975",
-    "GDP2018": "$39 290",
+    "GDP2018": "39 290",
     "Currency": "Japanese yen (¥, JPY)",
     "CallingCode": "+81"
   },
@@ -216,7 +236,17 @@
   "EG": "Cairo",
   "ZA": "Pretoria",
   "EC": "Quito",
-  "IT": "Rome",
+  "IT": {
+    "Independent": "Yes",
+    "OfficialName": "Italian Republic",
+    "Capital": "Rome",
+    "Continent": "Europe",
+    "Population2019": 60247214,
+    "Area": "301 339",
+    "GDP2018": "34 483",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+39"
+  },
   "VN": {
     "Independent": "Yes",
     "OfficialName": "Socialist Republic of Vietnam",
@@ -360,8 +390,28 @@
     "Currency": "Malaysian ringgit (RM, MYR)",
     "CallingCode": "+60"
   },
-  "MX": "Mexico City",
-  "IL": "Jerusalem",
+  "MX": {
+    "Independent": "Yes",
+    "OfficialName": "United Mexican States",
+    "Capital": "Mexico City",
+    "Continent": "North America",
+    "Population2019": 126577691,
+    "Area": "1 964 380",
+    "GDP2018": "9 673",
+    "Currency": "Mexican peso ($, MXN)",
+    "CallingCode": "+52"
+  },
+  "IL": {
+    "Independent": "Yes",
+    "OfficialName": "State of Israel",
+    "Capital": "Jerusalem",
+    "Continent": "Asia",
+    "Population2019": 9164160,
+    "Area": "20 770",
+    "GDP2018": "41 464",
+    "Currency": "Israeli new shekel (₪, ILS)",
+    "CallingCode": "+972"
+  },
   "FR": {
     "Independent": "Yes",
     "OfficialName": "French Republic",
@@ -466,7 +516,17 @@
     "CallingCode": "+383"
   },
   "CI": "Yamoussoukro",
-  "CH": "Berne",
+  "CH": {
+    "Independent": "Yes",
+    "OfficialName": "Swiss Confederation",
+    "Capital": "Bern",
+    "Continent": "Europe",
+    "Population2019": 8586550,
+    "Area": "41 284",
+    "GDP2018": "82 797",
+    "Currency": "Swiss franc (Fr, CHF)",
+    "CallingCode": "+41"
+  },
   "CO": "Bogota",
   "CN": {
     "Independent": "Yes",
@@ -555,7 +615,17 @@
   "KN": "Basseterre",
   "KM": "Moroni",
   "ST": "Sao Tome",
-  "SK": "Bratislava",
+  "SK": {
+    "Independent": "Yes",
+    "OfficialName": "Slovak Republic",
+    "Capital": "Bratislava",
+    "Continent": "Europe",
+    "Population2019": 5456362,
+    "Area": "49 037",
+    "GDP2018": "19 443",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+421"
+  },
   "KR": {
     "Independent": "Yes",
     "OfficialName": "Republic of Korea",
@@ -644,7 +714,17 @@
     "CallingCode": "+45"
   },
   "VG": "Road Town",
-  "DE": "Berlin",
+  "DE": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Republic of Germany",
+    "Capital": "Berlin",
+    "Continent": "Europe",
+    "Population2019": 83149300,
+    "Area": "357 114",
+    "GDP2018": "47 603",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+49"
+  },
   "YE": {
     "Independent": "Yes",
     "OfficialName": "Republic of Yemen",
@@ -788,7 +868,17 @@
   "AQ": "",
   "AS": "Pago Pago",
   "AR": "Buenos Aires",
-  "AU": "Canberra",
+  "AU": {
+    "Independent": "Yes",
+    "OfficialName": "Commonwealth of Australia",
+    "Capital": "Canberra",
+    "Continent": "Oceania",
+    "Population2019": 25627280,
+    "Area": "7 692 020",
+    "GDP2018": "57 374",
+    "Currency": "Australian dollar ($, AUD)",
+    "CallingCode": "+61"
+  },
   "AT": "Vienna",
   "AW": "Oranjestad",
   "IN": {
@@ -814,7 +904,17 @@
     "CallingCode": "+35818"
   },
   "AZ": "Baku",
-  "IE": "Dublin",
+  "IE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Ireland",
+    "Capital": "Dublin",
+    "Continent": "Europe",
+    "Population2019": 4921500,
+    "Area": "70 273",
+    "GDP2018": "78 806",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+353"
+  },
   "ID": "Jakarta",
   "UA": {
     "Independent": "Yes",
