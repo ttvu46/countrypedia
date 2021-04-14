@@ -4,7 +4,6 @@ import Table from "react-bootstrap/Table";
 import dataJSON from "./../data/country.json";
 
 function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
-  console.log(dataJSON["VN"]["Independent"]);
   let style = "sidebar";
   style += open ? " open" : " close";
   let code = countryCode.toLowerCase();

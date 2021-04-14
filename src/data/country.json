@@ -166,9 +166,29 @@
     "Currency": "Pakistani rupee (₨, PKR)",
     "CallingCode": "+92"
   },
-  "PH": "Manila",
+  "PH": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Philippines",
+    "Capital": "Manila",
+    "Continent": "Asia",
+    "Population2019": 108323702,
+    "Area": "300 000",
+    "GDP2018": "3 103",
+    "Currency": "Philippine peso (₱, PHP)",
+    "CallingCode": "+63"
+  },
   "PN": "Adamstown",
-  "PL": "Warsaw",
+  "PL": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Poland",
+    "Capital": "Warsaw",
+    "Continent": "Europe",
+    "Population2019": 38386000,
+    "Area": "312 696",
+    "GDP2018": "15 421",
+    "Currency": "Polish złoty (zł, PLN)",
+    "CallingCode": "+48"
+  },
   "PM": "Saint-Pierre",
   "ZM": {
     "Independent": "Yes",
@@ -318,7 +338,17 @@
   "MR": "Nouakchott",
   "IM": "Douglas, Isle of Man",
   "UG": "Kampala",
-  "TZ": "Dodoma",
+  "TZ": {
+    "Independent": "Yes",
+    "OfficialName": "United Republic of Tanzania",
+    "Capital": "Dodoma",
+    "Continent": "Africa",
+    "Population2019": 55890747,
+    "Area": "945 087",
+    "GDP2018": "1 051",
+    "Currency": "Tanzanian shilling (Sh, TZS)",
+    "CallingCode": "+255"
+  },
   "MY": {
     "Independent": "Yes",
     "OfficialName": "Malaysia",
@@ -383,7 +413,17 @@
     "Currency": "Norwegian krone (kr, NOK)",
     "CallingCode": "+47"
   },
-  "NA": "Windhoek",
+  "NA": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Namibia",
+    "Capital": "Windhoek",
+    "Continent": "Africa",
+    "Population2019": 2458936,
+    "Area": "825 615",
+    "GDP2018": "5 932",
+    "Currency": "Namibian dollar ($, NAD)",
+    "CallingCode": "+264"
+  },
   "VU": {
     "Independent": "Yes",
     "OfficialName": "Republic of Vanuatu",
@@ -475,11 +515,31 @@
     "Currency": "Syrian pound (£, SYP)",
     "CallingCode": "+963"
   },
-  "SX": "Philipsburg",
+  "SX": {
+    "Independent": "No",
+    "OfficialName": "Sint Maarten",
+    "Capital": "Philipsburg",
+    "Continent": "North America",
+    "Population2019": 40614,
+    "Area": "34",
+    "GDP2018": "N/A",
+    "Currency": "Netherlands Antillean guilder (ƒ, ANG)",
+    "CallingCode": "+1721"
+  },
   "KG": "Bishkek",
   "KE": "Nairobi",
   "SS": "Juba",
-  "SR": "Paramaribo",
+  "SR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Suriname",
+    "Capital": "Paramaribo",
+    "Continent": "South America",
+    "Population2019": 581372,
+    "Area": "163 820",
+    "GDP2018": "6 234",
+    "Currency": "Surinamese dollar ($, SRD)",
+    "CallingCode": "+597"
+  },
   "KI": {
     "Independent": "Yes",
     "OfficialName": "Independent and Sovereign Republic of Kiribati",
@@ -548,7 +608,17 @@
     "Currency": "Swedish krona (kr, SEK)",
     "CallingCode": "+46"
   },
-  "SD": "Khartoum",
+  "SD": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Sudan",
+    "Capital": "Khartoum",
+    "Continent": "Africa",
+    "Population2019": 42295645,
+    "Area": "1 861 480",
+    "GDP2018": "$ 977",
+    "Currency": "Sudanese pound (, SDG)",
+    "CallingCode": "+249"
+  },
   "DO": {
     "Independent": "Yes",
     "OfficialName": "People's Democratic Republic of Algeria",
@@ -597,7 +667,17 @@
     "Currency": "Algerian dinar (دج, DZD)",
     "CallingCode": "+213"
   },
-  "US": "Washington",
+  "US": {
+    "Independent": "Yes",
+    "OfficialName": "United States of America",
+    "Capital": "Washington D.C.",
+    "Continent": "North America",
+    "Population2019": 329345637,
+    "Area": "9 833 520",
+    "GDP2018": "62 795",
+    "Currency": "United States dollar ($, USD)",
+    "CallingCode": "+1"
+  },
   "UY": {
     "Independent": "Yes",
     "OfficialName": "Oriental Republic of Uruguay",
@@ -607,7 +687,7 @@
     "Area": "176 215",
     "GDP2018": "17 278",
     "Currency": "Uruguayan peso ($, UYU)",
-    "CallingCode": "598"
+    "CallingCode": "+598"
   },
   "YT": "Mamoudzou",
   "UM": "",
@@ -617,7 +697,17 @@
   "TV": "Funafuti",
   "TW": "Taipei",
   "TT": "Port of Spain",
-  "TR": "Ankara",
+  "TR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Turkey",
+    "Capital": "Ankara",
+    "Continent": "Asia, Europe",
+    "Population2019": 83154997,
+    "Area": "783 562",
+    "GDP2018": "9 370",
+    "Currency": "Turkish lira (₺, TRY)",
+    "CallingCode": "+90"
+  },
   "LK": "Colombo",
   "LI": "Vaduz",
   "LV": "Riga",
@@ -628,7 +718,17 @@
   "LS": "Maseru",
   "TH": "Bangkok",
   "TF": "Port-aux-Francais",
-  "TG": "Lome",
+  "TG": {
+    "Independent": "Yes",
+    "OfficialName": "Togolese Republic",
+    "Capital": "Lomé",
+    "Continent": "Africa",
+    "Population2019": 7538000,
+    "Area": "56 785",
+    "GDP2018": "679",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+228"
+  },
   "TD": "N'Djamena",
   "TC": "Cockburn Town",
   "LY": "Tripolis",
