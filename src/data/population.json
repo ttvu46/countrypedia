@@ -142,6 +142,28 @@
     "Currency": "Polish złoty (zł, PLN)",
     "CallingCode": "+48"
   },
+  "PA": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Panama",
+    "Capital": "Panama City",
+    "Continent": "North America",
+    "Population2019": 4218808,
+    "Area": "75 417",
+    "GDP2018": "15 575",
+    "Currency": "Panamanian balboa (B/., PAB)",
+    "CallingCode": "+507"
+  },
+  "GH": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Ghana",
+    "Capital": "Accra",
+    "Continent": "Africa",
+    "Population2019": 30280811,
+    "Area": "238 533",
+    "GDP2018": "2 202",
+    "Currency": "Ghanaian cedi (₵, GHS)",
+    "CallingCode": "+233"
+  },
   "ZM": {
     "Independent": "Yes",
     "OfficialName": "Republic of Zambia",
@@ -703,6 +725,17 @@
     "GDP2018": "57 374",
     "Currency": "Australian dollar ($, AUD)",
     "CallingCode": "+61"
+  },
+  "CY": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Cyprus",
+    "Capital": "Nicosia",
+    "Continent": "Europe",
+    "Population2019": 875900,
+    "Area": "9 251",
+    "GDP2018": "28 159",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+357"
   },
   "IN": {
     "Independent": "Yes",

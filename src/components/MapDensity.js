@@ -14,25 +14,16 @@ const geoUrl =
 const colorScale = scaleQuantile()
   .domain([1000, 250000000])
   .range([
-    "#ffeae6",
     "#ffd5cc",
-    "#ffbfb3",
-    "#ffaa99",
     "#ff9580",
-    "#ff8066",
     "#ff6a4d",
-    "#ff5533",
-    "#ff401a",
     "#ff2b00",
     "#cc2200",
-    "#b31e00",
     "#991a00",
-    "#801500",
     "#661100",
-    "#4d0d00",
   ]);
 console.log("hi");
-console.log(colorScale.invertExtent("#ff401a"));
+// console.log(colorScale.invertExtent("#ff401a"));
 // console.log(colorScale.invert("#4d0d00"));
 const MapDensity = () => {
   return (
