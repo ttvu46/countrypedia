@@ -10,6 +10,28 @@
     "Currency": "Afghan afghani (؋, AFN)",
     "CallingCode": "+93"
   },
+  "BR": {
+    "Independent": "Yes",
+    "OfficialName": "Federative Republic of Brazil",
+    "Capital": "Brasília",
+    "Continent": "South America",
+    "Population2019": 211173432,
+    "Area": "8 515 770",
+    "GDP2018": "8 921",
+    "Currency": "Brazilian real (R$, BRL)",
+    "CallingCode": "+55"
+  },
+  "GR": {
+    "Independent": "Yes",
+    "OfficialName": "Hellenic Republic",
+    "Capital": "Athens",
+    "Continent": "Europe",
+    "Population2019": 10724599,
+    "Area": "131 957",
+    "GDP2018": "20 324",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+30"
+  },
   "JP": {
     "Independent": "Yes",
     "OfficialName": "Japan",
@@ -17,7 +39,7 @@
     "Continent": "Asia",
     "Population2019": 126010000,
     "Area": "377 975",
-    "GDP2018": "$39 290",
+    "GDP2018": "39 290",
     "Currency": "Japanese yen (¥, JPY)",
     "CallingCode": "+81"
   },
@@ -98,6 +120,28 @@
     "Currency": "Pakistani rupee (₨, PKR)",
     "CallingCode": "+92"
   },
+  "PH": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Philippines",
+    "Capital": "Manila",
+    "Continent": "Asia",
+    "Population2019": 108323702,
+    "Area": "300 000",
+    "GDP2018": "3 103",
+    "Currency": "Philippine peso (₱, PHP)",
+    "CallingCode": "+63"
+  },
+  "PL": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Poland",
+    "Capital": "Warsaw",
+    "Continent": "Europe",
+    "Population2019": 38386000,
+    "Area": "312 696",
+    "GDP2018": "15 421",
+    "Currency": "Polish złoty (zł, PLN)",
+    "CallingCode": "+48"
+  },
   "ZM": {
     "Independent": "Yes",
     "OfficialName": "Republic of Zambia",
@@ -119,6 +163,17 @@
     "GDP2018": "23 266",
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+372"
+  },
+  "IT": {
+    "Independent": "Yes",
+    "OfficialName": "Italian Republic",
+    "Capital": "Rome",
+    "Continent": "Europe",
+    "Population2019": 60247214,
+    "Area": "301 339",
+    "GDP2018": "34 483",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+39"
   },
   "VN": {
     "Independent": "Yes",
@@ -219,6 +274,17 @@
     "Currency": "Malawian kwacha (MK, MWK)",
     "CallingCode": "+265"
   },
+  "TZ": {
+    "Independent": "Yes",
+    "OfficialName": "United Republic of Tanzania",
+    "Capital": "Dodoma",
+    "Continent": "Africa",
+    "Population2019": 55890747,
+    "Area": "945 087",
+    "GDP2018": "1 051",
+    "Currency": "Tanzanian shilling (Sh, TZS)",
+    "CallingCode": "+255"
+  },
   "MY": {
     "Independent": "Yes",
     "OfficialName": "Malaysia",
@@ -229,6 +295,28 @@
     "GDP2018": "11 373",
     "Currency": "Malaysian ringgit (RM, MYR)",
     "CallingCode": "+60"
+  },
+  "MX": {
+    "Independent": "Yes",
+    "OfficialName": "United Mexican States",
+    "Capital": "Mexico City",
+    "Continent": "North America",
+    "Population2019": 126577691,
+    "Area": "1 964 380",
+    "GDP2018": "9 673",
+    "Currency": "Mexican peso ($, MXN)",
+    "CallingCode": "+52"
+  },
+  "IL": {
+    "Independent": "Yes",
+    "OfficialName": "State of Israel",
+    "Capital": "Jerusalem",
+    "Continent": "Asia",
+    "Population2019": 9164160,
+    "Area": "20 770",
+    "GDP2018": "41 464",
+    "Currency": "Israeli new shekel (₪, ILS)",
+    "CallingCode": "+972"
   },
   "FR": {
     "Independent": "Yes",
@@ -274,6 +362,17 @@
     "Currency": "Norwegian krone (kr, NOK)",
     "CallingCode": "+47"
   },
+  "NA": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Namibia",
+    "Capital": "Windhoek",
+    "Continent": "Africa",
+    "Population2019": 2458936,
+    "Area": "825 615",
+    "GDP2018": "5 932",
+    "Currency": "Namibian dollar ($, NAD)",
+    "CallingCode": "+264"
+  },
   "VU": {
     "Independent": "Yes",
     "OfficialName": "Republic of Vanuatu",
@@ -306,6 +405,17 @@
     "GDP2018": "4 302",
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+383"
+  },
+  "CH": {
+    "Independent": "Yes",
+    "OfficialName": "Swiss Confederation",
+    "Capital": "Bern",
+    "Continent": "Europe",
+    "Population2019": 8586550,
+    "Area": "41 284",
+    "GDP2018": "82 797",
+    "Currency": "Swiss franc (Fr, CHF)",
+    "CallingCode": "+41"
   },
   "CN": {
     "Independent": "Yes",
@@ -340,6 +450,28 @@
     "Currency": "Syrian pound (£, SYP)",
     "CallingCode": "+963"
   },
+  "SX": {
+    "Independent": "No",
+    "OfficialName": "Sint Maarten",
+    "Capital": "Philipsburg",
+    "Continent": "North America",
+    "Population2019": 40614,
+    "Area": "34",
+    "GDP2018": "N/A",
+    "Currency": "Netherlands Antillean guilder (ƒ, ANG)",
+    "CallingCode": "+1721"
+  },
+  "SR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Suriname",
+    "Capital": "Paramaribo",
+    "Continent": "South America",
+    "Population2019": 581372,
+    "Area": "163 820",
+    "GDP2018": "6 234",
+    "Currency": "Surinamese dollar ($, SRD)",
+    "CallingCode": "+597"
+  },
   "KI": {
     "Independent": "Yes",
     "OfficialName": "Independent and Sovereign Republic of Kiribati",
@@ -350,6 +482,17 @@
     "GDP2018": "1 625",
     "Currency": "Australian dollar ($, AUD)",
     "CallingCode": "+686"
+  },
+  "SK": {
+    "Independent": "Yes",
+    "OfficialName": "Slovak Republic",
+    "Capital": "Bratislava",
+    "Continent": "Europe",
+    "Population2019": 5456362,
+    "Area": "49 037",
+    "GDP2018": "19 443",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+421"
   },
   "KR": {
     "Independent": "Yes",
@@ -395,6 +538,17 @@
     "Currency": "Swedish krona (kr, SEK)",
     "CallingCode": "+46"
   },
+  "SD": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Sudan",
+    "Capital": "Khartoum",
+    "Continent": "Africa",
+    "Population2019": 42295645,
+    "Area": "1 861 480",
+    "GDP2018": "$ 977",
+    "Currency": "Sudanese pound (, SDG)",
+    "CallingCode": "+249"
+  },
   "DO": {
     "Independent": "Yes",
     "OfficialName": "People's Democratic Republic of Algeria",
@@ -416,6 +570,18 @@
     "GDP2018": "61 350",
     "Currency": "Danish krone (kr., DKK)",
     "CallingCode": "+45"
+  },
+  "VG": "Road Town",
+  "DE": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Republic of Germany",
+    "Capital": "Berlin",
+    "Continent": "Europe",
+    "Population2019": 83149300,
+    "Area": "357 114",
+    "GDP2018": "47 603",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+49"
   },
   "YE": {
     "Independent": "Yes",
@@ -439,6 +605,17 @@
     "Currency": "Algerian dinar (دج, DZD)",
     "CallingCode": "+213"
   },
+  "US": {
+    "Independent": "Yes",
+    "OfficialName": "United States of America",
+    "Capital": "Washington D.C.",
+    "Continent": "North America",
+    "Population2019": 329345637,
+    "Area": "9 833 520",
+    "GDP2018": "62 795",
+    "Currency": "United States dollar ($, USD)",
+    "CallingCode": "+1"
+  },
   "UY": {
     "Independent": "Yes",
     "OfficialName": "Oriental Republic of Uruguay",
@@ -448,7 +625,29 @@
     "Area": "176 215",
     "GDP2018": "17 278",
     "Currency": "Uruguayan peso ($, UYU)",
-    "CallingCode": "598"
+    "CallingCode": "+598"
+  },
+  "TR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Turkey",
+    "Capital": "Ankara",
+    "Continent": "Asia, Europe",
+    "Population2019": 83154997,
+    "Area": "783 562",
+    "GDP2018": "9 370",
+    "Currency": "Turkish lira (₺, TRY)",
+    "CallingCode": "+90"
+  },
+  "TG": {
+    "Independent": "Yes",
+    "OfficialName": "Togolese Republic",
+    "Capital": "Lomé",
+    "Continent": "Africa",
+    "Population2019": 7538000,
+    "Area": "56 785",
+    "GDP2018": "679",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+228"
   },
   "VA": {
     "Independent": "Yes",
@@ -494,6 +693,17 @@
     "Currency": "Albanian lek (L, ALL)",
     "CallingCode": "+355"
   },
+  "AU": {
+    "Independent": "Yes",
+    "OfficialName": "Commonwealth of Australia",
+    "Capital": "Canberra",
+    "Continent": "Oceania",
+    "Population2019": 25627280,
+    "Area": "7 692 020",
+    "GDP2018": "57 374",
+    "Currency": "Australian dollar ($, AUD)",
+    "CallingCode": "+61"
+  },
   "IN": {
     "Independent": "Yes",
     "OfficialName": "Republic of India",
@@ -515,6 +725,17 @@
     "GDP2018": "N/A",
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+35818"
+  },
+  "IE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Ireland",
+    "Capital": "Dublin",
+    "Continent": "Europe",
+    "Population2019": 4921500,
+    "Area": "70 273",
+    "GDP2018": "78 806",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+353"
   },
   "UA": {
     "Independent": "Yes",
