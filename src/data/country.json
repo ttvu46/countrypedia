@@ -27,7 +27,17 @@
   "JM": "Kingston",
   "BV": "",
   "BW": "Gaborone",
-  "WS": "Apia",
+  "WS": {
+    "Independent": "Yes",
+    "OfficialName": "Independent State of Samoa",
+    "Capital": "Apia",
+    "Continent": "Oceania",
+    "Population2019": 200874,
+    "Area": "2 842",
+    "GDP2018": "4 183",
+    "Currency": "Samoan tālā (T, WST)",
+    "CallingCode": "+685"
+  },
   "BQ": "",
   "BR": {
     "Independent": "Yes",
@@ -180,7 +190,17 @@
   },
   "SJ": "Longyearbyen",
   "PY": "Asuncion",
-  "IQ": "Baghdad",
+  "IQ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Iraq",
+    "Capital": "Baghdad",
+    "Continent": "Asia",
+    "Population2019": 39127900,
+    "Area": "438 317",
+    "GDP2018": "5 834",
+    "Currency": "Iraqi dinar (ع.د, IQD)",
+    "CallingCode": "+964"
+  },
   "PA": {
     "Independent": "Yes",
     "OfficialName": "Republic of Panama",
@@ -330,7 +350,17 @@
   },
   "MF": "Marigot",
   "MA": "Rabat",
-  "MC": "Monaco",
+  "MC": {
+    "Independent": "Yes",
+    "OfficialName": "Principality of Monaco",
+    "Capital": "Monaco",
+    "Continent": "Europe",
+    "Population2019": 38300,
+    "Area": "2",
+    "GDP2018": "185 741",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+377"
+  },
   "UZ": {
     "Independent": "Yes",
     "OfficialName": "Republic of Uzbekistan",
@@ -471,7 +501,17 @@
     "Currency": "Nicaraguan córdoba (C$, NIO)",
     "CallingCode": "+505"
   },
-  "NL": "Amsterdam",
+  "NL": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of the Netherlands",
+    "Capital": "Amsterdam",
+    "Continent": "Europe",
+    "Population2019": 17438081,
+    "Area": "41 850",
+    "GDP2018": "53 024",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+31"
+  },
   "NO": {
     "Independent": "Yes",
     "OfficialName": "Kingdom of Norway",
@@ -521,7 +561,17 @@
   "NG": "Abuja",
   "NZ": "Wellington",
   "NP": "Kathmandu",
-  "NR": "Yaren",
+  "NR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Nauru",
+    "Capital": "Yaren",
+    "Continent": "Oceania",
+    "Population2019": 11000,
+    "Area": "21",
+    "GDP2018": "9889",
+    "Currency": "Australian dollar ($, AUD)",
+    "CallingCode": "+674"
+  },
   "NU": "Alofi",
   "CK": "Avarua",
   "XK": {
@@ -689,8 +739,28 @@
     "Currency": "North Korean won (₩, KPW)",
     "CallingCode": "+850"
   },
-  "KW": "Kuwait City",
-  "SN": "Dakar",
+  "KW": {
+    "Independent": "Yes",
+    "OfficialName": "State of Kuwait",
+    "Capital": "Kuwait City",
+    "Continent": "Asia",
+    "Population2019": 4420110,
+    "Area": "17 818",
+    "GDP2018": "33 994",
+    "Currency": "Kuwaiti dinar (د.ك, KWD)",
+    "CallingCode": "+965"
+  },
+  "SN": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Senegal",
+    "Capital": "Dakar",
+    "Continent": "Africa",
+    "Population2019": 16209125,
+    "Area": "196 722",
+    "GDP2018": "1 522",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+221"
+  },
   "SM": "San Marino",
   "SL": "Freetown",
   "SC": "Victoria",
@@ -842,9 +912,29 @@
   "LI": "Vaduz",
   "LV": "Riga",
   "TO": "Nuku'alofa",
-  "LT": "Vilnius",
+  "LT": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Lithuania",
+    "Capital": "Vilnius",
+    "Continent": "Europe",
+    "Population2019": 2793350,
+    "Area": "65 300",
+    "GDP2018": "19 153",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+370"
+  },
   "LU": "Luxembourg",
-  "LR": "Monrovia",
+  "LR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Liberia",
+    "Capital": "Monrovia",
+    "Continent": "Africa",
+    "Population2019": 4475353,
+    "Area": "111 369",
+    "GDP2018": "677",
+    "Currency": "Liberian dollar ($, LRD)",
+    "CallingCode": "+231"
+  },
   "LS": "Maseru",
   "TH": "Bangkok",
   "TF": "Port-aux-Francais",
@@ -988,5 +1078,15 @@
     "Currency": "Qatari riyal (ر.ق, QAR)",
     "CallingCode": "+380"
   },
-  "MZ": "Maputo"
+  "MZ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Mozambique",
+    "Capital": "Maputo",
+    "Continent": "Africa",
+    "Population2019": 28571310,
+    "Area": "801 590",
+    "GDP2018": "499",
+    "Currency": "Mozambican metical (MT, MZN)",
+    "CallingCode": "+258"
+  }
 }

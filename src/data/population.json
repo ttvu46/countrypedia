@@ -219,6 +219,61 @@
     "Currency": "Ethiopian birr (Br, ETB)",
     "CallingCode": "+251"
   },
+  "WS": {
+    "Independent": "Yes",
+    "OfficialName": "Independent State of Samoa",
+    "Capital": "Apia",
+    "Continent": "Oceania",
+    "Population2019": 200874,
+    "Area": "2 842",
+    "GDP2018": "4 183",
+    "Currency": "Samoan tālā (T, WST)",
+    "CallingCode": "+685"
+  },
+  "MC": {
+    "Independent": "Yes",
+    "OfficialName": "Principality of Monaco",
+    "Capital": "Monaco",
+    "Continent": "Europe",
+    "Population2019": 38300,
+    "Area": "2",
+    "GDP2018": "185 741",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+377"
+  },
+  "NL": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of the Netherlands",
+    "Capital": "Amsterdam",
+    "Continent": "Europe",
+    "Population2019": 17438081,
+    "Area": "41 850",
+    "GDP2018": "53 024",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+31"
+  },
+  "NR": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Nauru",
+    "Capital": "Yaren",
+    "Continent": "Oceania",
+    "Population2019": 11000,
+    "Area": "21",
+    "GDP2018": "9889",
+    "Currency": "Australian dollar ($, AUD)",
+    "CallingCode": "+674"
+  },
+  "MZ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Mozambique",
+    "Capital": "Maputo",
+    "Continent": "Africa",
+    "Population2019": 28571310,
+    "Area": "801 590",
+    "GDP2018": "499",
+    "Currency": "Mozambican metical (MT, MZN)",
+    "CallingCode": "+258"
+  },
   "ZW": {
     "Independent": "Yes",
     "OfficialName": "Republic of Zimbabwe",
