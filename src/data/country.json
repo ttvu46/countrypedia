@@ -112,7 +112,17 @@
   "JE": "Saint Helier",
   "BY": "Minsk",
   "BZ": "Belmopan",
-  "RU": "Moscow",
+  "RU": {
+    "Independent": "Yes",
+    "OfficialName": "Russian Federation",
+    "Capital": "Moscow",
+    "Continent": "Asia, Europe",
+    "Population2019": 146780720,
+    "Area": "17 098 200",
+    "GDP2018": "11 289",
+    "Currency": "Russian ruble (₽, RUB)",
+    "CallingCode": "+73XX, +74XX, +75XX, +78XX, +79XX"
+  },
   "RW": "Kigali",
   "RS": "Belgrade",
   "TL": "Dili",
@@ -329,7 +339,17 @@
     "Currency": "Zambian kwacha (ZK, ZMW)",
     "CallingCode": "+260"
   },
-  "EH": "El-Aaiun",
+  "EH": {
+    "Independent": "No",
+    "OfficialName": "Sahrawi Arab Democratic Republic",
+    "Capital": "El Aaiún",
+    "Continent": "Africa",
+    "Population2019": 582463,
+    "Area": "266 000",
+    "GDP2018": "N/A",
+    "Currency": "Moroccan dirham (د.م., MAD)",
+    "CallingCode": "+2125288, +2125289"
+  },
   "EE": {
     "Independent": "Yes",
     "OfficialName": "Republic of Estonia",
@@ -483,7 +503,17 @@
   "MQ": "Fort-de-France",
   "MP": "Saipan",
   "MS": "Plymouth",
-  "MR": "Nouakchott",
+  "MR": {
+    "Independent": "Yes",
+    "OfficialName": "Islamic Republic of Mauritania",
+    "Capital": "Nouakchott",
+    "Continent": "Africa",
+    "Population2019": 4077347,
+    "Area": "1 030 700",
+    "GDP2018": "1 189",
+    "Currency": "Mauritanian ouguiya (UM, MRU)",
+    "CallingCode": "+222"
+  },
   "IM": "Douglas, Isle of Man",
   "UG": "Kampala",
   "TZ": {
@@ -1082,7 +1112,17 @@
     "Currency": "Albanian lek (L, ALL)",
     "CallingCode": "+355"
   },
-  "AO": "Luanda",
+  "AO": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Angola",
+    "Capital": "Luanda",
+    "Continent": "Africa",
+    "Population2019": 31127674,
+    "Area": "1 246 700",
+    "GDP2018": "3 432",
+    "Currency": "Angolan kwanza (Kz, AOA)",
+    "CallingCode": "+244"
+  },
   "AQ": "",
   "AS": "Pago Pago",
   "AR": "Buenos Aires",

@@ -6,7 +6,7 @@ import {
   Graticule,
 } from "react-simple-maps";
 import { scaleQuantile } from "d3-scale";
-import dataJSON from "./../data/population.json";
+import dataJSON from "./../data/country.json";
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
@@ -32,9 +32,10 @@ const MapDensity = () => {
       <Geographies geography={geoUrl}>
         {({ geographies }) =>
           geographies.map((geo) => {
-            const population = dataJSON[geo.properties.ISO_A2]
-              ? dataJSON[geo.properties.ISO_A2]["Population2019"]
-              : 0;
+            const population =
+              typeof dataJSON[geo.properties.ISO_A2] === "object"
+                ? dataJSON[geo.properties.ISO_A2]["Population2019"]
+                : 0;
             console.log(population);
             return (
               <Geography
