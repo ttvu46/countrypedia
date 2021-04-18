@@ -10,13 +10,61 @@
     "Currency": "Afghan afghani (؋, AFN)",
     "CallingCode": "+93"
   },
-  "BE": "Brussels",
-  "BF": "Ouagadougou",
-  "BG": "Sofia",
-  "BA": "Sarajevo",
-  "BB": "Bridgetown",
-  "WF": "Mata Utu",
-  "BL": "Gustavia",
+  "BE": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Belgium",
+    "Capital": "Brussels",
+    "Continent": "Europe",
+    "Population2019": 11522169,
+    "Area": "30 528",
+    "GDP2018": "47 519",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+32"
+  },
+  "BF": {
+    "Independent": "Yes",
+    "OfficialName": "Burkina Faso",
+    "Capital": "Ouagadougou",
+    "Continent": "Africa",
+    "Population2019": 20870060,
+    "Area": "274 222",
+    "GDP2018": "715",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+226"
+  },
+  "BG": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Bulgaria",
+    "Capital": "Sofia",
+    "Continent": "Europe",
+    "Population2019": 7000039,
+    "Area": "111 002",
+    "GDP2018": "9 273",
+    "Currency": "Bulgarian lev (лв, BGN)",
+    "CallingCode": "+359"
+  },
+  "BA": {
+    "Independent": "Yes",
+    "OfficialName": "Bosnia and Herzegovina",
+    "Capital": "Sarajevo",
+    "Continent": "Europe",
+    "Population2019": 3301000,
+    "Area": "51 209",
+    "GDP2018": "6 066",
+    "Currency": "Bosnia and Herzegovina convertible mark (, BAM)",
+    "CallingCode": "+387"
+  },
+  "BB": {
+    "Independent": "Yes",
+    "OfficialName": "Barbados",
+    "Capital": "Bridgetown",
+    "Continent": "North America",
+    "Population2019": 287025,
+    "Area": "430",
+    "GDP2018": "17 949",
+    "Currency": "Barbadian dollar ($, BBD)",
+    "CallingCode": "+1246"
+  },
   "BM": "Hamilton",
   "BN": "Bandar Seri Begawan",
   "BO": "Sucre",
@@ -26,7 +74,17 @@
   "BT": "Thimphu",
   "JM": "Kingston",
   "BV": "",
-  "BW": "Gaborone",
+  "BW": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Botswana",
+    "Capital": "Gaborone",
+    "Continent": "Africa",
+    "Population2019": 2338851,
+    "Area": "581 730",
+    "GDP2018": "8 259",
+    "Currency": "Botswana pula (P, BWP)",
+    "CallingCode": "+267"
+  },
   "WS": {
     "Independent": "Yes",
     "OfficialName": "Independent State of Samoa",
@@ -134,7 +192,17 @@
     "Currency": "Ghanaian cedi (₵, GHS)",
     "CallingCode": "+233"
   },
-  "OM": "Muscat",
+  "OM": {
+    "Independent": "Yes",
+    "OfficialName": "Sultanate of Oman",
+    "Capital": "Muscat",
+    "Continent": "Asia",
+    "Population2019": 4664790,
+    "Area": "309 500",
+    "GDP2018": "16 415",
+    "Currency": "Omani rial (ر.ع., OMR)",
+    "CallingCode": "+968"
+  },
   "TN": "Tunis",
   "JO": "Amman",
   "HR": "Zagreb",
@@ -609,7 +677,17 @@
     "Currency": "Chinese yuan (¥, CNY)",
     "CallingCode": "+86"
   },
-  "CM": "Yaounde",
+  "CM": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Cameroon",
+    "Capital": "Yaoundé",
+    "Continent": "Africa",
+    "Population2019": 25876000,
+    "Area": "475 442",
+    "GDP2018": "1 534",
+    "Currency": "Central African CFA franc (Fr, XAF)",
+    "CallingCode": "+237"
+  },
   "CL": "Santiago",
   "CC": "West Island",
   "CA": {

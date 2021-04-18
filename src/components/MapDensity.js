@@ -57,3 +57,5 @@ const MapDensity = () => {
 };
 
 export default MapDensity;
+// "WF": "Mata Utu",
+// "BL": "Gustavia",
