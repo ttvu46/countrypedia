@@ -872,7 +872,17 @@
   "SM": "San Marino",
   "SL": "Freetown",
   "SC": "Victoria",
-  "KZ": "Astana",
+  "KZ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Kazakhstan",
+    "Capital": "Nur-Sultan",
+    "Continent": "Asia",
+    "Population2019": 18651680,
+    "Area": "2 724 900",
+    "GDP2018": "9 813",
+    "Currency": "Kazakhstani tenge (₸, KZT)",
+    "CallingCode": "+76XX, +77XX"
+  },
   "KY": "George Town",
   "SG": {
     "Independent": "Yes",

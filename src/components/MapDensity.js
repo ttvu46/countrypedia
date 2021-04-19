@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -22,12 +22,11 @@ const colorScale = scaleQuantile()
     "#991a00",
     "#661100",
   ]);
-console.log("hi");
 // console.log(colorScale.invertExtent("#ff401a"));
 // console.log(colorScale.invert("#4d0d00"));
-const MapDensity = () => {
+const MapDensity = ({ setContent, setHover }) => {
   return (
-    <ComposableMap projectionConfig={{ scale: 147 }}>
+    <ComposableMap projectionConfig={{ scale: 147 }} data-tip="">
       <Graticule stroke="#eeebdd" />
       <Geographies geography={geoUrl}>
         {({ geographies }) =>
@@ -48,6 +47,14 @@ const MapDensity = () => {
                     ? "#330900"
                     : colorScale(population)
                 }
+                onMouseOver={() => {
+                  setContent(geo.properties.NAME);
+                  setHover(true);
+                }}
+                onMouseLeave={() => {
+                  setContent("");
+                  setHover(false);
+                }}
               />
             );
           })

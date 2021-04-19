@@ -50,7 +50,8 @@ function App() {
           )}
         </Tab>
         <Tab eventKey="pro" title="Population denstity">
-          <MapDensity />
+          <MapDensity setContent={setContent} setHover={setHover} />
+          {hover && <ReactTooltip>{content}</ReactTooltip>}
         </Tab>
         <Tab eventKey="Headquarter" title="Headquarter"></Tab>
         <Tab eventKey="contact" title="Contact" disabled></Tab>
