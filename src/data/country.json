@@ -108,9 +108,39 @@
     "Currency": "Brazilian real (R$, BRL)",
     "CallingCode": "+55"
   },
-  "BS": "Nassau",
-  "JE": "Saint Helier",
-  "BY": "Minsk",
+  "BS": {
+    "Independent": "Yes",
+    "OfficialName": "Commonwealth of the Bahamas",
+    "Capital": "Nassau",
+    "Continent": "North America",
+    "Population2019": 385340,
+    "Area": "13 943",
+    "GDP2018": "32 218",
+    "Currency": "Bahamian dollar ($, BSD)",
+    "CallingCode": "+1242"
+  },
+  "JE": {
+    "Independent": "No",
+    "OfficialName": "Bailiwick of Jersey",
+    "Capital": "Saint Helier",
+    "Continent": "Europe",
+    "Population2019": 106800,
+    "Area": "116",
+    "GDP2018": "N/A",
+    "Currency": "British pound (£, GBP), Jersey pound (£, JEP)",
+    "CallingCode": "+44"
+  },
+  "BY": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Belarus",
+    "Capital": "Minsk",
+    "Continent": "Europe",
+    "Population2019": 9413446,
+    "Area": "207 600",
+    "GDP2018": "6 290",
+    "Currency": "Belarusian ruble (Br, BYN)",
+    "CallingCode": "+375"
+  },
   "BZ": "Belmopan",
   "RU": {
     "Independent": "Yes",
@@ -214,7 +244,17 @@
     "CallingCode": "+968"
   },
   "TN": "Tunis",
-  "JO": "Amman",
+  "JO": {
+    "Independent": "Yes",
+    "OfficialName": "Hashemite Kingdom of Jordan",
+    "Capital": "Amman",
+    "Continent": "Asia",
+    "Population2019": 10622608,
+    "Area": "89 342",
+    "GDP2018": "4 242",
+    "Currency": "Jordanian dinar (JD, JOD)",
+    "CallingCode": "+962"
+  },
   "HR": "Zagreb",
   "HT": "Port-au-Prince",
   "HU": "Budapest",
@@ -361,8 +401,28 @@
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+372"
   },
-  "EG": "Cairo",
-  "ZA": "Pretoria",
+  "EG": {
+    "Independent": "Yes",
+    "OfficialName": "Arab Republic of Egypt",
+    "Capital": "Cairo",
+    "Continent": "Africa, Asia",
+    "Population2019": 100052943,
+    "Area": "1 002 450",
+    "GDP2018": "2 549",
+    "Currency": "Egyptian pound (E£, EGP)",
+    "CallingCode": "+20"
+  },
+  "ZA": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of South Africa",
+    "Capital": "Pretoria",
+    "Continent": "Africa",
+    "Population2019": 58775022,
+    "Area": "1 221 040 ",
+    "GDP2018": "6 374",
+    "Currency": "South African rand (Rs, ZAR)",
+    "CallingCode": "+27"
+  },
   "EC": "Quito",
   "IT": {
     "Independent": "Yes",
@@ -398,7 +458,17 @@
     "Currency": "Ethiopian birr (Br, ETB)",
     "CallingCode": "+251"
   },
-  "SO": "Mogadishu",
+  "SO": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Republic of Somalia",
+    "Capital": "Mogadishu",
+    "Continent": "Africa",
+    "Population2019": 15442905,
+    "Area": "637 657",
+    "GDP2018": "315",
+    "Currency": "Somali shilling (Sh, SOS)",
+    "CallingCode": "+252"
+  },
   "ZW": {
     "Independent": "Yes",
     "OfficialName": "Republic of Zimbabwe",
@@ -410,7 +480,17 @@
     "Currency": "United States dollar ($, USD)",
     "CallingCode": "+263"
   },
-  "SA": "Riyadh",
+  "SA": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Saudi Arabia",
+    "Capital": "Riyadh",
+    "Continent": "Asia",
+    "Population2019": 34218169,
+    "Area": "2 149 690",
+    "GDP2018": "23 339",
+    "Currency": "Saudi riyal (ر.س, SAR)",
+    "CallingCode": "+966"
+  },
   "ES": {
     "Independent": "Yes",
     "OfficialName": "Kingdom of Spain",
@@ -437,7 +517,17 @@
     "CallingCode": "+261"
   },
   "MF": "Marigot",
-  "MA": "Rabat",
+  "MA": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Morocco",
+    "Capital": "Rabat",
+    "Continent": "Africa",
+    "Population2019": 35821024,
+    "Area": "446 550",
+    "GDP2018": "3 238",
+    "Currency": "Moroccan dirham (د.م., MAD)",
+    "CallingCode": "+212"
+  },
   "MC": {
     "Independent": "Yes",
     "OfficialName": "Principality of Monaco",
@@ -656,7 +746,17 @@
     "CallingCode": "+227"
   },
   "NF": "Kingston",
-  "NG": "Abuja",
+  "NG": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Republic of Nigeria",
+    "Capital": "Abuja",
+    "Continent": "Africa",
+    "Population2019": 200963599,
+    "Area": "923 768",
+    "GDP2018": "2 028",
+    "Currency": "Nigerian naira (₦, NGN)",
+    "CallingCode": "+234"
+  },
   "NZ": "Wellington",
   "NP": "Kathmandu",
   "NR": {
@@ -785,7 +885,17 @@
     "CallingCode": "+1721"
   },
   "KG": "Bishkek",
-  "KE": "Nairobi",
+  "KE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Kenya",
+    "Capital": "Nairobi",
+    "Continent": "Africa",
+    "Population2019": 47564296,
+    "Area": "580 367",
+    "GDP2018": "1 711",
+    "Currency": "Kenyan shilling (Sh, KES)",
+    "CallingCode": "+254"
+  },
   "SS": "Juba",
   "SR": {
     "Independent": "Yes",
@@ -1067,9 +1177,29 @@
     "Currency": "West African CFA franc (Fr, XOF)",
     "CallingCode": "+228"
   },
-  "TD": "N'Djamena",
+  "TD": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Chad",
+    "Capital": "N'Djamena",
+    "Continent": "Africa",
+    "Population2019": 15692969,
+    "Area": "1 284 000",
+    "GDP2018": "728",
+    "Currency": "Central African CFA franc (Fr, XAF)",
+    "CallingCode": "+235"
+  },
   "TC": "Cockburn Town",
-  "LY": "Tripolis",
+  "LY": {
+    "Independent": "Yes",
+    "OfficialName": "State of Libya",
+    "Capital": "Tripoli",
+    "Continent": "Africa",
+    "Population2019": 6777452,
+    "Area": "1 759 540",
+    "GDP2018": "7 242",
+    "Currency": "Libyan dinar (ل.د, LYD)",
+    "CallingCode": "+218"
+  },
   "VA": {
     "Independent": "Yes",
     "OfficialName": "Vatican City State",
