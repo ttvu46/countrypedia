@@ -67,7 +67,17 @@
   },
   "BM": "Hamilton",
   "BN": "Bandar Seri Begawan",
-  "BO": "Sucre",
+  "BO": {
+    "Independent": "Yes",
+    "OfficialName": "Plurinational State of Bolivia",
+    "Capital": "Sucre",
+    "Continent": "South America",
+    "Population2019": 11469896,
+    "Area": "1 098 580",
+    "GDP2018": "3 549",
+    "Currency": "Bolivian boliviano (Bs., BOB)",
+    "CallingCode": "+591"
+  },
   "BH": "Manama",
   "BI": {
     "Independent": "Yes",
@@ -80,7 +90,17 @@
     "Currency": "Burundian franc (Fr, BIF)",
     "CallingCode": "+257"
   },
-  "BJ": "Porto-Novo",
+  "BJ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Benin",
+    "Capital": "Porto-Novo",
+    "Continent": "Africa",
+    "Population2019": 11733059,
+    "Area": "114 763",
+    "GDP2018": "902",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+229"
+  },
   "BT": {
     "Independent": "Yes",
     "OfficialName": "Kingdom of Bhutan",
@@ -187,7 +207,17 @@
   "RS": "Belgrade",
   "TL": "Dili",
   "RE": "Saint-Denis",
-  "TM": "Ashgabat",
+  "TM": {
+    "Independent": "Yes",
+    "OfficialName": "Turkmenistan",
+    "Capital": "Ashgabat",
+    "Continent": "Asia",
+    "Population2019": 5942089,
+    "Area": "488 100",
+    "GDP2018": "6 967",
+    "Currency": "Turkmenistan manat (m, TMT)",
+    "CallingCode": "+993"
+  },
   "TJ": "Dushanbe",
   "RO": "Bucharest",
   "TK": "",
@@ -247,7 +277,17 @@
     "CallingCode": "+241"
   },
   "SV": "San Salvador",
-  "GN": "Conakry",
+  "GN": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Guinea",
+    "Capital": "Conakry",
+    "Continent": "Africa",
+    "Population2019": 12218357,
+    "Area": "245 857",
+    "GDP2018": "879",
+    "Currency": "Guinean franc (Fr, GNF)",
+    "CallingCode": "+224"
+  },
   "GM": "Banjul",
   "GL": {
     "Independent": "No",
@@ -372,7 +412,17 @@
   },
   "PF": "Papeete",
   "PG": "Port Moresby",
-  "PE": "Lima",
+  "PE": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Peru",
+    "Capital": "Lima",
+    "Continent": "South America",
+    "Population2019": 32131400,
+    "Area": "1 285 220",
+    "GDP2018": "6 941",
+    "Currency": "Peruvian sol (S/., PEN)",
+    "CallingCode": "+51"
+  },
   "PK": {
     "Independent": "Yes",
     "OfficialName": "Islamic Republic of Pakistan",
@@ -865,7 +915,17 @@
     "Currency": "Swiss franc (Fr, CHF)",
     "CallingCode": "+41"
   },
-  "CO": "Bogota",
+  "CO": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Colombia",
+    "Capital": "Bogotá",
+    "Continent": "South America",
+    "Population2019": 49395678,
+    "Area": "1 141 750",
+    "GDP2018": "6 668",
+    "Currency": "Colombian peso ($, COP)",
+    "CallingCode": "+57"
+  },
   "CN": {
     "Independent": "Yes",
     "OfficialName": "People's Republic of China",
@@ -901,8 +961,28 @@
     "Currency": "Canadian dollar ($, CAD)",
     "CallingCode": "+1"
   },
-  "CG": "Brazzaville",
-  "CF": "Bangui",
+  "CG": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Congo",
+    "Capital": "Brazzaville",
+    "Continent": "Africa",
+    "Population2019": 5380508,
+    "Area": "342 000",
+    "GDP2018": "2 148",
+    "Currency": "Central African CFA franc (Fr, XAF)",
+    "CallingCode": "+242"
+  },
+  "CF": {
+    "Independent": "Yes",
+    "OfficialName": "Central African Republic",
+    "Capital": "Bangui",
+    "Continent": "Africa",
+    "Population2019": 5496011,
+    "Area": "622 984",
+    "GDP2018": "476",
+    "Currency": "Central African CFA franc (Fr, XAF)",
+    "CallingCode": "+236"
+  },
   "CD": {
     "Independent": "Yes",
     "OfficialName": "Democratic Republic of the Congo",
@@ -964,7 +1044,17 @@
     "Currency": "Netherlands Antillean guilder (ƒ, ANG)",
     "CallingCode": "+1721"
   },
-  "KG": "Bishkek",
+  "KG": {
+    "Independent": "Yes",
+    "OfficialName": "Kyrgyz Republic",
+    "Capital": "Bishkek",
+    "Continent": "Asia",
+    "Population2019": 6490300,
+    "Area": "199 951",
+    "GDP2018": "1 281",
+    "Currency": "Kyrgyzstani som (с, KGS)",
+    "CallingCode": "+996"
+  },
   "KE": {
     "Independent": "Yes",
     "OfficialName": "Republic of Kenya",
@@ -1403,7 +1493,17 @@
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+353"
   },
-  "ID": "Jakarta",
+  "ID": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Indonesia",
+    "Capital": "Jakarta",
+    "Continent": "Asia, Oceania",
+    "Population2019": 266911900,
+    "Area": "1 910 930",
+    "GDP2018": "3 894",
+    "Currency": "Indonesian rupiah (Rp, IDR)",
+    "CallingCode": "+62"
+  },
   "UA": {
     "Independent": "Yes",
     "OfficialName": "Ukraine",
