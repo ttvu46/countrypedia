@@ -69,9 +69,29 @@
   "BN": "Bandar Seri Begawan",
   "BO": "Sucre",
   "BH": "Manama",
-  "BI": "Bujumbura",
+  "BI": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Burundi",
+    "Capital": "Gitega",
+    "Continent": "Africa",
+    "Population2019": 10953317,
+    "Area": "27 834",
+    "GDP2018": "272",
+    "Currency": "Burundian franc (Fr, BIF)",
+    "CallingCode": "+257"
+  },
   "BJ": "Porto-Novo",
-  "BT": "Thimphu",
+  "BT": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Bhutan",
+    "Capital": "Thimphu",
+    "Continent": "Asia",
+    "Population2019": 741672,
+    "Area": "38 394",
+    "GDP2018": "3 243",
+    "Currency": "Bhutanese ngultrum (Nu., BTN)",
+    "CallingCode": "+975"
+  },
   "JM": "Kingston",
   "BV": "",
   "BW": {
@@ -153,7 +173,17 @@
     "Currency": "Russian ruble (₽, RUB)",
     "CallingCode": "+73XX, +74XX, +75XX, +78XX, +79XX"
   },
-  "RW": "Kigali",
+  "RW": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Rwanda",
+    "Capital": "Kigali",
+    "Continent": "Africa",
+    "Population2019": 12374397,
+    "Area": "26 338",
+    "GDP2018": "773",
+    "Currency": "Rwandan franc (Fr, RWF)",
+    "CallingCode": "+250"
+  },
   "RS": "Belgrade",
   "TL": "Dili",
   "RE": "Saint-Denis",
@@ -205,7 +235,17 @@
     "Currency": "British pound (£, GBP)",
     "CallingCode": "+44"
   },
-  "GA": "Libreville",
+  "GA": {
+    "Independent": "Yes",
+    "OfficialName": "Gabonese Republic",
+    "Capital": "Libreville",
+    "Continent": "Africa",
+    "Population2019": 2172579,
+    "Area": "267 668",
+    "GDP2018": "7 953",
+    "Currency": "Central African CFA franc (Fr, XAF)",
+    "CallingCode": "+241"
+  },
   "SV": "San Salvador",
   "GN": "Conakry",
   "GM": "Banjul",
@@ -550,7 +590,17 @@
     "Currency": "Uzbekistani soʻm (so'm, UZS)",
     "CallingCode": "+998"
   },
-  "MM": "Nay Pyi Taw",
+  "MM": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of the Union of Myanmar",
+    "Capital": "Naypyidaw",
+    "Continent": "Asia",
+    "Population2019": 54339766,
+    "Area": "676 578",
+    "GDP2018": "1 326",
+    "Currency": "Burmese kyat (Ks, MMK)",
+    "CallingCode": "+95"
+  },
   "ML": {
     "Independent": "Yes",
     "OfficialName": "Republic of Mali",
@@ -605,7 +655,17 @@
     "CallingCode": "+222"
   },
   "IM": "Douglas, Isle of Man",
-  "UG": "Kampala",
+  "UG": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Uganda",
+    "Capital": "Kampala",
+    "Continent": "Africa",
+    "Population2019": 40299300,
+    "Area": "241 550",
+    "GDP2018": "643",
+    "Currency": "Ugandan shilling (Sh, UGX)",
+    "CallingCode": "+256"
+  },
   "TZ": {
     "Independent": "Yes",
     "OfficialName": "United Republic of Tanzania",
@@ -758,7 +818,17 @@
     "CallingCode": "+234"
   },
   "NZ": "Wellington",
-  "NP": "Kathmandu",
+  "NP": {
+    "Independent": "Yes",
+    "OfficialName": "Federal Democratic Republic of Nepal",
+    "Capital": "Kathmandu",
+    "Continent": "Asia",
+    "Population2019": 29609623,
+    "Area": "147 181",
+    "GDP2018": "1 034",
+    "Currency": "Nepalese rupee (₨, NPR)",
+    "CallingCode": "+977"
+  },
   "NR": {
     "Independent": "Yes",
     "OfficialName": "Republic of Nauru",
@@ -833,7 +903,17 @@
   },
   "CG": "Brazzaville",
   "CF": "Bangui",
-  "CD": "Kinshasa",
+  "CD": {
+    "Independent": "Yes",
+    "OfficialName": "Democratic Republic of the Congo",
+    "Capital": "Kinshasa",
+    "Continent": "Africa",
+    "Population2019": 86790567,
+    "Area": "2 344 860",
+    "GDP2018": "562",
+    "Currency": "Congolese franc (FC, CDF)",
+    "CallingCode": "+243"
+  },
   "CZ": "Prague",
   "CY": {
     "Independent": "Yes",
@@ -896,7 +976,17 @@
     "Currency": "Kenyan shilling (Sh, KES)",
     "CallingCode": "+254"
   },
-  "SS": "Juba",
+  "SS": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of South Sudan",
+    "Capital": "Juba",
+    "Continent": "Africa",
+    "Population2019": 12778250,
+    "Area": "644 329",
+    "GDP2018": "1 120",
+    "Currency": "South Sudanese pound (£, SSP)",
+    "CallingCode": "+211"
+  },
   "SR": {
     "Independent": "Yes",
     "OfficialName": "Republic of Suriname",
