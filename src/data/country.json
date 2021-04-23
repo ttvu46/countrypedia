@@ -218,8 +218,28 @@
     "Currency": "Turkmenistan manat (m, TMT)",
     "CallingCode": "+993"
   },
-  "TJ": "Dushanbe",
-  "RO": "Bucharest",
+  "TJ": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Tajikistan",
+    "Capital": "Dushanbe",
+    "Continent": "Asia",
+    "Population2019": 9127000,
+    "Area": "143 100",
+    "GDP2018": "827",
+    "Currency": "Tajikistani somoni (ЅМ, TJS)",
+    "CallingCode": "+992"
+  },
+  "RO": {
+    "Independent": "Yes",
+    "OfficialName": "Romania",
+    "Capital": "Bucharest",
+    "Continent": "Europe",
+    "Population2019": 19405156,
+    "Area": "238 397",
+    "GDP2018": "12 301",
+    "Currency": "Romanian leu (lei, RON)",
+    "CallingCode": "+40"
+  },
   "TK": "",
   "GW": "Bissau",
   "GU": "Hagatna",
@@ -349,7 +369,17 @@
     "Currency": "Hong Kong dollar ($, HKD)",
     "CallingCode": "+852"
   },
-  "HN": "Tegucigalpa",
+  "HN": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Honduras",
+    "Capital": "Tegucigalpa",
+    "Continent": "North America",
+    "Population2019": 9158345,
+    "Area": "112 492",
+    "GDP2018": "2 500",
+    "Currency": "Honduran lempira (L, HNL)",
+    "CallingCode": "+504"
+  },
   "HM": "",
   "VE": {
     "Independent": "Yes",
@@ -387,7 +417,17 @@
     "CallingCode": "+351"
   },
   "SJ": "Longyearbyen",
-  "PY": "Asuncion",
+  "PY": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Paraguay",
+    "Capital": "Asunción",
+    "Continent": "South America",
+    "Population2019": 7152703,
+    "Area": "406 752",
+    "GDP2018": "5 822",
+    "Currency": "Paraguayan guaraní (₲, PYG)",
+    "CallingCode": "+595"
+  },
   "IQ": {
     "Independent": "Yes",
     "OfficialName": "Republic of Iraq",
@@ -411,7 +451,17 @@
     "CallingCode": "+507"
   },
   "PF": "Papeete",
-  "PG": "Port Moresby",
+  "PG": {
+    "Independent": "Yes",
+    "OfficialName": "Independent State of Papua New Guinea",
+    "Capital": "Port Moresby",
+    "Continent": "Oceania",
+    "Population2019": 8935000,
+    "Area": "462 840",
+    "GDP2018": "2 730",
+    "Currency": "Papua New Guinean kina (K, PGK)",
+    "CallingCode": "+675"
+  },
   "PE": {
     "Independent": "Yes",
     "OfficialName": "Republic of Peru",
@@ -513,7 +563,17 @@
     "Currency": "South African rand (Rs, ZAR)",
     "CallingCode": "+27"
   },
-  "EC": "Quito",
+  "EC": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Ecuador",
+    "Capital": "Quito",
+    "Continent": "South America",
+    "Population2019": 17431712,
+    "Area": "276 841",
+    "GDP2018": "6 345",
+    "Currency": "United States dollar ($, USD)",
+    "CallingCode": "+593"
+  },
   "IT": {
     "Independent": "Yes",
     "OfficialName": "Italian Republic",
@@ -948,7 +1008,17 @@
     "Currency": "Central African CFA franc (Fr, XAF)",
     "CallingCode": "+237"
   },
-  "CL": "Santiago",
+  "CL": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Chile",
+    "Capital": "Santiago",
+    "Continent": "South America",
+    "Population2019": 19107216,
+    "Area": "756 102",
+    "GDP2018": "15 923",
+    "Currency": "Chilean peso ($, CLP)",
+    "CallingCode": "+56"
+  },
   "CC": "West Island",
   "CA": {
     "Independent": "Yes",
@@ -1020,7 +1090,17 @@
   },
   "CW": " Willemstad",
   "CV": "Praia",
-  "CU": "Havana",
+  "CU": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Cuba",
+    "Capital": "Havana",
+    "Continent": "North America",
+    "Population2019": 11209628,
+    "Area": "109 884",
+    "GDP2018": "8 822",
+    "Currency": "Cuban convertible peso ($, CUC)",
+    "CallingCode": "+53"
+  },
   "SZ": "Mbabane",
   "SY": {
     "Independent": "Yes",
@@ -1099,7 +1179,17 @@
     "Currency": "Australian dollar ($, AUD)",
     "CallingCode": "+686"
   },
-  "KH": "Phnom Penh",
+  "KH": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Cambodia",
+    "Capital": "Phnom Penh",
+    "Continent": "Asia",
+    "Population2019": 15288489,
+    "Area": "181 035",
+    "GDP2018": "1 510",
+    "Currency": "Cambodian riel (៛, KHR)",
+    "CallingCode": "+855"
+  },
   "KN": "Basseterre",
   "KM": "Moroni",
   "ST": "Sao Tome",
@@ -1301,7 +1391,17 @@
     "Currency": "Eastern Caribbean dollar ($, XCD)",
     "CallingCode": "+1758"
   },
-  "LA": "Vientiane",
+  "LA": {
+    "Independent": "Yes",
+    "OfficialName": "Lao People's Democratic Republic",
+    "Capital": "Vientiane",
+    "Continent": "Asia",
+    "Population2019": 7123205,
+    "Area": "236 800",
+    "GDP2018": "2 568",
+    "Currency": "Lao kip (₭, LAK)",
+    "CallingCode": "+856"
+  },
   "TV": "Funafuti",
   "TW": "Taipei",
   "TT": "Port of Spain",
@@ -1344,7 +1444,17 @@
     "CallingCode": "+231"
   },
   "LS": "Maseru",
-  "TH": "Bangkok",
+  "TH": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Thailand",
+    "Capital": "Bangkok",
+    "Continent": "Asia",
+    "Population2019": 66474267,
+    "Area": "513 120",
+    "GDP2018": "7 274",
+    "Currency": "Thai baht (฿, THB)",
+    "CallingCode": "+66"
+  },
   "TF": "Port-aux-Francais",
   "TG": {
     "Independent": "Yes",
@@ -1445,7 +1555,17 @@
   },
   "AQ": "",
   "AS": "Pago Pago",
-  "AR": "Buenos Aires",
+  "AR": {
+    "Independent": "Yes",
+    "OfficialName": "Argentine Republic",
+    "Capital": "Buenos Aires",
+    "Continent": "South America",
+    "Population2019": 44938712,
+    "Area": "2 780 400",
+    "GDP2018": "11 684",
+    "Currency": "Argentine peso ($, ARS)",
+    "CallingCode": "+54"
+  },
   "AU": {
     "Independent": "Yes",
     "OfficialName": "Commonwealth of Australia",
