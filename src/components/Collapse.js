@@ -94,3 +94,13 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
 }
 
 export default CollapseCon;
+
+// let capital;
+// fetch("http://country.io/capital.json")
+//   .then((response) => response.json())
+//   .then((resData) => {
+//     console.log(resData);
+//   })
+//   .catch(function (err) {
+//     console.log(err);
+//   });
