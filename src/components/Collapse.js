@@ -15,16 +15,6 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
     code +
     ".png 3x";
 
-  // let capital;
-  // fetch("http://country.io/capital.json")
-  //   .then((response) => response.json())
-  //   .then((resData) => {
-  //     console.log(resData);
-  //   })
-  //   .catch(function (err) {
-  //     console.log(err);
-  //   });
-
   return (
     <div className={style}>
       <a
