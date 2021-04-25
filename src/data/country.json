@@ -243,7 +243,17 @@
   "TK": "",
   "GW": "Bissau",
   "GU": "Hagatna",
-  "GT": "Guatemala City",
+  "GT": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Guatemala",
+    "Capital": "Guatemala City",
+    "Continent": "North America",
+    "Population2019": 16604026,
+    "Area": "108 889",
+    "GDP2018": "4 549",
+    "Currency": "Guatemalan quetzal (Q, GTQ)",
+    "CallingCode": "+502"
+  },
   "GS": "Grytviken",
   "GR": {
     "Independent": "Yes",
@@ -343,7 +353,17 @@
     "Currency": "Omani rial (ر.ع., OMR)",
     "CallingCode": "+968"
   },
-  "TN": "Tunis",
+  "TN": {
+    "Independent": "Yes",
+    "OfficialName": "Tunisian Republic",
+    "Capital": "Tunis",
+    "Continent": "Africa",
+    "Population2019": 11722038,
+    "Area": "163 610",
+    "GDP2018": "3 448",
+    "Currency": "Tunisian dinar (د.ت, TND)",
+    "CallingCode": "+216"
+  },
   "JO": {
     "Independent": "Yes",
     "OfficialName": "Hashemite Kingdom of Jordan",
@@ -357,7 +377,17 @@
   },
   "HR": "Zagreb",
   "HT": "Port-au-Prince",
-  "HU": "Budapest",
+  "HU": {
+    "Independent": "Yes",
+    "OfficialName": "Hungary",
+    "Capital": "Budapest",
+    "Continent": "Europe",
+    "Population2019": 9772756,
+    "Area": "93 028",
+    "GDP2018": "16 162",
+    "Currency": "Hungarian forint (Ft, HUF)",
+    "CallingCode": "+36"
+  },
   "HK": {
     "Independent": "No",
     "OfficialName": "Hong Kong Special Administrative Region of the People's Republic of China",
@@ -1443,7 +1473,17 @@
     "Currency": "Liberian dollar ($, LRD)",
     "CallingCode": "+231"
   },
-  "LS": "Maseru",
+  "LS": {
+    "Independent": "Yes",
+    "OfficialName": "Kingdom of Lesotho",
+    "Capital": "Maseru",
+    "Continent": "Africa",
+    "Population2019": 2007201,
+    "Area": "30 355",
+    "GDP2018": "1 299",
+    "Currency": "Lesotho loti (L, LSL)",
+    "CallingCode": "+266"
+  },
   "TH": {
     "Independent": "Yes",
     "OfficialName": "Kingdom of Thailand",
