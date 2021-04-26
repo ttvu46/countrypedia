@@ -89,6 +89,7 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
           </tbody>
         )}
       </Table>
+      <i class="fas fa-circle"></i>
     </div>
   );
 }

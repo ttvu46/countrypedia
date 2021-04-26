@@ -14,6 +14,7 @@ function Map({
   setCountryCode,
   setHover,
 }) {
+  let styleMargin = open ? "375px" : "0px";
   const clickedStyle = {
     default: {
       fill: "#96bb7c",
@@ -49,44 +50,45 @@ function Map({
     },
   };
   return (
-    <ComposableMap
-      style={{
-        margin: "0px",
-        backgroundColor: "#1b1717",
-      }}
-      data-tip=""
-    >
-      <Geographies geography={geoUrl}>
-        {({ geographies }) =>
-          geographies.map((geo) => (
-            <Geography
-              onMouseOver={() => {
-                setTooltipContent(geo.properties.NAME);
-                setContentCode(geo.properties.ISO_A2);
-                setHover(true);
-              }}
-              onMouseLeave={() => {
-                setTooltipContent("");
-                setContentCode("");
-                setHover(false);
-              }}
-              onClick={() => {
-                setOpen(true);
-                setClickedInfo(geo.properties.NAME);
-                setCountryCode(geo.properties.ISO_A2);
-              }}
-              style={
-                open && geo.properties.NAME === clickedInfo
-                  ? clickedStyle
-                  : countryStyle
-              }
-              key={geo.rsmKey}
-              geography={geo}
-            />
-          ))
-        }
-      </Geographies>
-    </ComposableMap>
+    <div style={{ marginLeft: styleMargin, transition: "0.5s" }}>
+      <ComposableMap
+        style={{
+          backgroundColor: "#1b1717",
+        }}
+        data-tip=""
+      >
+        <Geographies geography={geoUrl}>
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography
+                onMouseOver={() => {
+                  setTooltipContent(geo.properties.NAME);
+                  setContentCode(geo.properties.ISO_A2);
+                  setHover(true);
+                }}
+                onMouseLeave={() => {
+                  setTooltipContent("");
+                  setContentCode("");
+                  setHover(false);
+                }}
+                onClick={() => {
+                  setOpen(true);
+                  setClickedInfo(geo.properties.NAME);
+                  setCountryCode(geo.properties.ISO_A2);
+                }}
+                style={
+                  open && geo.properties.NAME === clickedInfo
+                    ? clickedStyle
+                    : countryStyle
+                }
+                key={geo.rsmKey}
+                geography={geo}
+              />
+            ))
+          }
+        </Geographies>
+      </ComposableMap>
+    </div>
   );
 }
 

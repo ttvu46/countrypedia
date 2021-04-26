@@ -863,7 +863,17 @@
   },
   "IO": "Diego Garcia",
   "SH": "Jamestown",
-  "FI": "Helsinki",
+  "FI": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Finland",
+    "Capital": "Helsinki",
+    "Continent": "Europe",
+    "Population2019": 5527573,
+    "Area": "338 424",
+    "GDP2018": "50 152",
+    "Currency": "Euro (€, EUR)",
+    "CallingCode": "+358"
+  },
   "FJ": {
     "Independent": "Yes",
     "OfficialName": "Republic of Fiji",
@@ -993,7 +1003,17 @@
     "Currency": "Euro (€, EUR)",
     "CallingCode": "+383"
   },
-  "CI": "Yamoussoukro",
+  "CI": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Côte d'Ivoire",
+    "Capital": "Yamoussoukro",
+    "Continent": "Africa",
+    "Population2019": 25823071,
+    "Area": "322 463",
+    "GDP2018": "1 716",
+    "Currency": "West African CFA franc (Fr, XOF)",
+    "CallingCode": "+225"
+  },
   "CH": {
     "Independent": "Yes",
     "OfficialName": "Swiss Confederation",
@@ -1280,7 +1300,17 @@
     "CallingCode": "+221"
   },
   "SM": "San Marino",
-  "SL": "Freetown",
+  "SL": {
+    "Independent": "Yes",
+    "OfficialName": "Republic of Sierra Leone",
+    "Capital": "Freetown",
+    "Continent": "Africa",
+    "Population2019": 7901454,
+    "Area": "71 740",
+    "GDP2018": "534",
+    "Currency": "Sierra Leonean leone (Le, SLL)",
+    "CallingCode": "+232"
+  },
   "SC": "Victoria",
   "KZ": {
     "Independent": "Yes",
@@ -1593,7 +1623,17 @@
     "Currency": "Angolan kwanza (Kz, AOA)",
     "CallingCode": "+244"
   },
-  "AQ": "",
+  "AQ": {
+    "Independent": "No",
+    "OfficialName": "Antarctica",
+    "Capital": "N/A",
+    "Continent": "N/A",
+    "Population2019": 3000,
+    "Area": "14 000 000",
+    "GDP2018": "N/A",
+    "Currency": "United States dollar ($, USD)",
+    "CallingCode": "N/A"
+  },
   "AS": "Pago Pago",
   "AR": {
     "Independent": "Yes",
