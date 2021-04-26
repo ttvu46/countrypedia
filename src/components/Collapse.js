@@ -65,27 +65,6 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
               <td>Calling code</td>
               <td>{dataJSON[countryCode]["CallingCode"]}</td>
             </tr>
-
-            {/* <td>Capical city</td>
-          <td>Continent</td>
-          <td>Population(2019)</td>
-          <td>Area</td>
-          <td>GDP(2018)</td>
-          <td>Currency</td>
-          <td>Calling code</td> */}
-
-            {/* {open && (
-            <tr>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["OfficialName"]}</td>
-              <td>{dataJSON[countryCode]["Capital"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-              <td>{dataJSON[countryCode]["Independent"]}</td>
-            </tr> */}
           </tbody>
         )}
       </Table>
@@ -95,13 +74,3 @@ function CollapseCon({ open, setOpen, clickedInfo, countryCode }) {
 }
 
 export default CollapseCon;
-
-// let capital;
-// fetch("http://country.io/capital.json")
-//   .then((response) => response.json())
-//   .then((resData) => {
-//     console.log(resData);
-//   })
-//   .catch(function (err) {
-//     console.log(err);
-//   });

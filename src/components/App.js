@@ -8,6 +8,7 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import "./App.css";
 import FlagIcon from "./FlagIcon";
+import ColorScaling from "./ColorScaling";
 
 function App() {
   const [content, setContent] = useState("");
@@ -19,6 +20,8 @@ function App() {
   const [countryData, setCountryData] = useState("");
   return (
     <div>
+      <ColorScaling />
+      <p>Hello</p>
       <Tabs
         defaultActiveKey="home"
         transition={false}
@@ -53,8 +56,10 @@ function App() {
           <MapDensity setContent={setContent} setHover={setHover} />
           {hover && <ReactTooltip>{content}</ReactTooltip>}
         </Tab>
-        <Tab eventKey="Headquarter" title="Headquarter"></Tab>
-        <Tab eventKey="contact" title="Contact" disabled></Tab>
+        <Tab eventKey="Headquarter" title="Headquarter">
+          <ColorScaling />
+        </Tab>
+        <Tab eventKey="contact" title="Contact"></Tab>
       </Tabs>
     </div>
   );
