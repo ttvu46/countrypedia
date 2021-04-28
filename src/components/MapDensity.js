@@ -26,7 +26,11 @@ const colorScale = scaleQuantile()
 // console.log(colorScale.invert("#4d0d00"));
 const MapDensity = ({ setContent, setHover }) => {
   return (
-    <ComposableMap projectionConfig={{ scale: 147 }} data-tip="">
+    <ComposableMap
+      style={{ margin: "0px" }}
+      projectionConfig={{ scale: 150 }}
+      data-tip=""
+    >
       <Graticule stroke="#eeebdd" />
       <Geographies geography={geoUrl}>
         {({ geographies }) =>

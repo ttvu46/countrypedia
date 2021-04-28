@@ -10,6 +10,9 @@ import "./App.css";
 import FlagIcon from "./FlagIcon";
 import ColorInfo from "./ColorInfo";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 function App() {
   const [content, setContent] = useState("");
   const [open, setOpen] = useState(false);
@@ -20,8 +23,6 @@ function App() {
   const [countryData, setCountryData] = useState("");
   return (
     <div>
-      <p>Hello</p>
-      <ColorInfo />
       <Tabs
         defaultActiveKey="home"
         transition={false}
@@ -53,8 +54,17 @@ function App() {
           )}
         </Tab>
         <Tab eventKey="pro" title="Population denstity">
-          <MapDensity setContent={setContent} setHover={setHover} />
-          {hover && <ReactTooltip>{content}</ReactTooltip>}
+          <Container style={{ margin: "0px", padding: "0px" }} fluid>
+            <Row>
+              <Col lg={3} style={{ margin: "0px", padding: "0px" }}>
+                <ColorInfo />
+              </Col>
+              <Col lg={9} style={{ margin: "0px", padding: "0px" }}>
+                <MapDensity setContent={setContent} setHover={setHover} />
+                {hover && <ReactTooltip>{content}</ReactTooltip>}
+              </Col>
+            </Row>
+          </Container>
         </Tab>
         <Tab eventKey="Headquarter" title="Headquarter"></Tab>
         <Tab eventKey="contact" title="Contact"></Tab>
