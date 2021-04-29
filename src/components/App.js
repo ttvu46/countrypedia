@@ -9,6 +9,8 @@ import Tab from "react-bootstrap/Tab";
 import "./App.css";
 import FlagIcon from "./FlagIcon";
 import ColorInfo from "./ColorInfo";
+import dataJSON from "./../data/country.json";
+import fNum from "./NumberFormat";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -20,7 +22,7 @@ function App() {
   const [clickedInfo, setClickedInfo] = useState("");
   const [contentCode, setContentCode] = useState("");
   const [countryCode, setCountryCode] = useState("");
-  const [countryData, setCountryData] = useState("");
+
   return (
     <div>
       <Tabs
@@ -35,7 +37,6 @@ function App() {
             setOpen={setOpen}
             clickedInfo={clickedInfo}
             countryCode={countryCode}
-            countryData={countryData}
           />
           <Map
             setTooltipContent={setContent}
@@ -60,8 +61,16 @@ function App() {
                 <ColorInfo />
               </Col>
               <Col lg={9} style={{ margin: "0px", padding: "0px" }}>
-                <MapDensity setContent={setContent} setHover={setHover} />
-                {hover && <ReactTooltip>{content}</ReactTooltip>}
+                <MapDensity
+                  setContent={setContent}
+                  setHover={setHover}
+                  setContentCode={setContentCode}
+                />
+                {hover && (
+                  <ReactTooltip>
+                    {content} - {fNum(dataJSON[contentCode]["Population2019"])}
+                  </ReactTooltip>
+                )}
               </Col>
             </Row>
           </Container>

@@ -2,6 +2,8 @@ import React from "react";
 import { scaleQuantile } from "d3-scale";
 import ColorScaling from "./ColorScaling";
 import "./ColorInfo.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 // import Container from "react-bootstrap/Container";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
@@ -54,6 +56,9 @@ function ColorInfo() {
       <ColorScaling color="#cc2200" range={getRange("#cc2200")} />
       <ColorScaling color="#991a00" range={getRange("#991a00")} />
       <ColorScaling color="#661100" range={getRange("#661100")} />
+      <p>
+        <FontAwesomeIcon icon={faCircle} color="#330900" /> > 1,000,000,000
+      </p>
     </div>
   );
 }

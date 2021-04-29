@@ -24,7 +24,7 @@ const colorScale = scaleQuantile()
   ]);
 // console.log(colorScale.invertExtent("#ff401a"));
 // console.log(colorScale.invert("#4d0d00"));
-const MapDensity = ({ setContent, setHover }) => {
+const MapDensity = ({ setContent, setHover, setContentCode }) => {
   return (
     <ComposableMap
       style={{ margin: "0px" }}
@@ -54,10 +54,12 @@ const MapDensity = ({ setContent, setHover }) => {
                 onMouseOver={() => {
                   setContent(geo.properties.NAME);
                   setHover(true);
+                  setContentCode(geo.properties.ISO_A2);
                 }}
                 onMouseLeave={() => {
                   setContent("");
                   setHover(false);
+                  setContentCode("");
                 }}
               />
             );
