@@ -26,11 +26,10 @@ This is an example of how to list things you need to use the software and how to
   git clone https://github.com/tvu2000/countrypedia.git
   ```
 - In the terminal, typing
-
-```
-npm install
-node app.js
-```
+  ```sh
+  npm install
+  node app.js
+  ```
 
 ## Built With
 
