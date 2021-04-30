@@ -4,6 +4,8 @@ A website that shows world map and coutries' info, from
 
 ## Demo
 
+![](https://media.giphy.com/media/ySyC4czqjvXh3ttkdM/giphy.gif)
+
 ## Getting Started
 
 - Pull or Fork this repo in your local machine
@@ -35,6 +37,9 @@ This is an example of how to list things you need to use the software and how to
 
 - React
 - React-simple-map
+- React tooltip
+- React bootstrap
+- d3-scale
 
 ## Authors
 
