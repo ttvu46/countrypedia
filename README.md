@@ -4,8 +4,6 @@ A website that shows world map and coutries' info, from
 
 ## Demo
 
-![](https://media.giphy.com/media/ySyC4czqjvXh3ttkdM/giphy.gif)
-
 ## Getting Started
 
 - Pull or Fork this repo in your local machine
@@ -30,7 +28,7 @@ This is an example of how to list things you need to use the software and how to
 - In the terminal, typing
   ```sh
   npm install
-  node app.js
+  npm start
   ```
 
 ## Built With
