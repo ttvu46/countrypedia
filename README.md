@@ -3,6 +3,7 @@
 A website that shows world map and coutries' info, from
 
 ## Demo
+![](https://media.giphy.com/media/ySyC4czqjvXh3ttkdM/giphy.gif)
 
 ## Getting Started
 
