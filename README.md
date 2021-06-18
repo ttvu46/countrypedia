@@ -11,7 +11,6 @@ A website that shows world map and coutries' info, from
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
