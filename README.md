@@ -21,7 +21,7 @@ A website that shows world map and coutries' info, from
 
 ### Installation
 
-- Clone the InstantaneousGramme
+- Clone Countrypedia
   ```sh
   git clone https://github.com/tvu2000/countrypedia.git
   ```
