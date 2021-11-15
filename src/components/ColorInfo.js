@@ -57,7 +57,7 @@ function ColorInfo() {
       <ColorScaling color="#991a00" range={getRange("#991a00")} />
       <ColorScaling color="#661100" range={getRange("#661100")} />
       <p>
-        <FontAwesomeIcon icon={faCircle} color="#330900" /> > 1,000,000,000
+        <FontAwesomeIcon icon={faCircle} color="#330900" /> 1,000,000,000
       </p>
     </div>
   );

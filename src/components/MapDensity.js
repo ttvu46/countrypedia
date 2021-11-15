@@ -39,7 +39,7 @@ const MapDensity = ({ setContent, setHover, setContentCode }) => {
               typeof dataJSON[geo.properties.ISO_A2] === "object"
                 ? dataJSON[geo.properties.ISO_A2]["Population2019"]
                 : 0;
-            console.log(population);
+            // console.log(population);
             return (
               <Geography
                 key={geo.rsmKey}
