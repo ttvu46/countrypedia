@@ -41,4 +41,4 @@ A website that shows world map, coutries' information and population.
 
 ## Authors
 
-- [Truc Vu](https://github.com/tvu2000)
+- [Thanh Truc Vu](https://github.com/ttvu46)
